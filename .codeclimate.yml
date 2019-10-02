@@ -1,7 +1,7 @@
 engines:
   eslint:
     enabled: true
-    channel: 'eslint-2'
+    channel: 'eslint-5'
     config:
       ignore_warnings: true
     checks:
