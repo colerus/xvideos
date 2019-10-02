@@ -1,4 +1,4 @@
-import ResponseApi from "../videos/response/responseApi";
+import ResponseApi from '../videos/response/responseApi';
 declare const createNextFunction: (pagination: {
     page: number;
     pages?: number[] | undefined;

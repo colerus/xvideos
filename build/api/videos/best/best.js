@@ -55,7 +55,7 @@ var best = function (input) { return __awaiter(void 0, void 0, void 0, function 
                 if (!input.month)
                     input.month = new Date().getMonth(); // Date.getMonth is zero based
                 input.page = utils_1.validatePage(input.page);
-                url = "" + base_1.default.BASE_URL + PATH + "/" + input.year + "-" + input.month.toString().padStart(2, "0") + "/" + (input.page === 0 ? '' : input.page);
+                url = "" + base_1.default.BASE_URL + PATH + "/" + input.year + "-" + input.month.toString().padStart(2, '0') + "/" + (input.page === 0 ? '' : input.page);
                 request = base_1.default.createRequest({ url: url });
                 _a = parseResponses_1.parseResponse;
                 _b = [input.page];

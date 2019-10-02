@@ -68,13 +68,13 @@ var details = function (_a) {
                     views = $('#nb-views-number').text();
                     videoScript = $('#video-player-bg > script:nth-child(6)').html();
                     files = {
-                        low: (videoScript.match('html5player.setVideoUrlLow\\(\'(.*?)\'\\);') || [])[1],
-                        high: (videoScript.match('html5player.setVideoUrlHigh\\(\'(.*?)\'\\);') || [])[1],
-                        HLS: (videoScript.match('html5player.setVideoHLS\\(\'(.*?)\'\\);') || [])[1],
-                        thumb: (videoScript.match('html5player.setThumbUrl\\(\'(.*?)\'\\);') || [])[1],
-                        thumb69: (videoScript.match('html5player.setThumbUrl169\\(\'(.*?)\'\\);') || [])[1],
-                        thumbSlide: (videoScript.match('html5player.setThumbSlide\\(\'(.*?)\'\\);') || [])[1],
-                        thumbSlideBig: (videoScript.match('html5player.setThumbSlideBig\\(\'(.*?)\'\\);') || [])[1],
+                        low: (videoScript.match("html5player.setVideoUrlLow\\('(.*?)'\\);") || [])[1],
+                        high: (videoScript.match("html5player.setVideoUrlHigh\\('(.*?)'\\);") || [])[1],
+                        HLS: (videoScript.match("html5player.setVideoHLS\\('(.*?)'\\);") || [])[1],
+                        thumb: (videoScript.match("html5player.setThumbUrl\\('(.*?)'\\);") || [])[1],
+                        thumb69: (videoScript.match("html5player.setThumbUrl169\\('(.*?)'\\);") || [])[1],
+                        thumbSlide: (videoScript.match("html5player.setThumbSlide\\('(.*?)'\\);") || [])[1],
+                        thumbSlideBig: (videoScript.match("html5player.setThumbSlideBig\\('(.*?)'\\);") || [])[1],
                     };
                     return [2 /*return*/, {
                             title: title,

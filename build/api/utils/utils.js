@@ -27,7 +27,6 @@ function parseVideo($, video) {
     };
 }
 exports.parseVideo = parseVideo;
-;
 function parseVideos($) {
     return $('#content > .mozaique > .thumb-block')
         .map(function (_i, video) { return parseVideo($, video); })
@@ -36,14 +35,12 @@ function parseVideos($) {
 exports.parseVideos = parseVideos;
 function getPages($) {
     return $('.pagination > ul > li > a')
-        .map(function (_i, page) { return $(page)
-        .text(); })
+        .map(function (_i, page) { return $(page).text(); })
         .filter(function (_i, page) { return !isNaN(Number(page)); })
         .map(function (_i, page) { return Number(page); })
         .get();
 }
 exports.getPages = getPages;
-;
 function validatePage(page) {
     if (!page && page !== 0)
         return 1;

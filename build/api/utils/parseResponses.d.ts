@@ -1,4 +1,4 @@
-import ResponseApi from "../videos/response/responseApi";
+import ResponseApi from '../videos/response/responseApi';
 export declare function parseResponse(page: number, { data }: {
     data: string;
 }, callback: Function, key?: string): ResponseApi;

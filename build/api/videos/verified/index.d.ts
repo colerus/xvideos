@@ -1,2 +1,2 @@
-export { default } from "./verified";
+export { default } from './verified';
 //# sourceMappingURL=index.d.ts.map

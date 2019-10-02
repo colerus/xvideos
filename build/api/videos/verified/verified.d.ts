@@ -1,4 +1,4 @@
-import ResponseApi from "../response/responseApi";
+import ResponseApi from '../response/responseApi';
 declare const verified: ({ page }?: {
     page?: number | undefined;
 }) => Promise<ResponseApi>;
