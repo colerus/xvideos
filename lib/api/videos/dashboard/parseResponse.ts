@@ -17,7 +17,7 @@ const getPages = ($: CheerioStatic) => {
     .map((_i, page) => $(page)
       .text())
     .filter((_i, page) => !isNaN(Number(page)))
-    .map((_i, page) => Number(page) - 1)
+    .map((_i, page) => Number(page))
     .get();
 };
 

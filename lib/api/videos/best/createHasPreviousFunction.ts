@@ -1,11 +1,9 @@
-function hasPreviousFunction(currentPage: number, pages: number[]) {
+const hasPreviousFunction = (currentPage: number, pages: number[]) => {
   return currentPage > Math.min(...pages);
 };
 
 const createHasPreviousFunction = (pagination: {page: number, pages: number[]}) => {
-  const { page, pages } = pagination;
-
-  return hasPreviousFunction(page, pages);
+  return hasPreviousFunction(pagination.page, pagination.pages);
 };
 
 export default createHasPreviousFunction;

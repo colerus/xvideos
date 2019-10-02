@@ -4,8 +4,7 @@ var hasNextFunction = function (currentPage, pages) { return function () {
     return currentPage < Math.max.apply(Math, pages);
 }; };
 var createHasNextFunction = function (pagination) {
-    var page = pagination.page, pages = pagination.pages;
-    return hasNextFunction(page, pages);
+    return hasNextFunction(pagination.page, pagination.pages);
 };
 exports.default = createHasNextFunction;
 //# sourceMappingURL=createHasNextFunction.js.map

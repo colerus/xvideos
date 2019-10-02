@@ -41,7 +41,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var dashboard_1 = __importDefault(require("./dashboard"));
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
     chai_1.should();
 });
@@ -50,7 +51,7 @@ describe('api/videos/dashboard', function () {
         var list, previous, next;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, dashboard_1.default({ page: 2 })];
+                case 0: return [4 /*yield*/, videos.dashboard({ page: 2 })];
                 case 1:
                     list = _a.sent();
                     list.should.be.an('object');
@@ -165,7 +166,7 @@ describe('api/videos/dashboard', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, dashboard_1.default({ page: Number.MAX_SAFE_INTEGER + 1 })];
+                    return [4 /*yield*/, videos.dashboard({ page: Number.MAX_SAFE_INTEGER + 1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -186,7 +187,7 @@ describe('api/videos/dashboard', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, dashboard_1.default({ page: -1 })];
+                    return [4 /*yield*/, videos.dashboard({ page: -1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -202,3 +203,4 @@ describe('api/videos/dashboard', function () {
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=dashboard.spec.js.map

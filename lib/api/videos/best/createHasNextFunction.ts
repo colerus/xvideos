@@ -3,9 +3,7 @@ function hasNextFunction(currentPage: number, pages: number[]) {
 };
 
 const createHasNextFunction = (pagination: { page:number, pages: number[] }) => {
-  const { page, pages } = pagination;
-
-  return hasNextFunction(page, pages);
+  return hasNextFunction(pagination.page, pagination.pages);
 };
 
 export default createHasNextFunction;

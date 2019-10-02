@@ -1,5 +1,5 @@
 /// <reference types="cheerio" />
-declare const parseVideo: ($: CheerioStatic | CheerioAPI, video: string) => {
+declare const parseVideo: ($: CheerioAPI | CheerioStatic, video: string) => {
     url: string;
     path: string;
     title: string;

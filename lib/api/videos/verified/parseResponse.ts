@@ -6,9 +6,9 @@ import createNextFunction from './createNextFunction';
 import createHasPreviousFunction from './createHasPreviousFunction';
 import createPreviousFunction from './createPreviousFunction';
 
-const getVideos = ($: CheerioAPI | CheerioStatic) => {
+const getVideos = ($: CheerioStatic) => {
   return $('#content > .mozaique > .thumb-block')
-    .map((_i, video) => parseVideo($, video.nodeValue))
+    .map((_i, video) => parseVideo($, video))
     .get();
 };
 
@@ -17,7 +17,7 @@ const getPages = ($: CheerioStatic) => {
     .map((_i, page) => $(page)
       .text())
     .filter((_i, page) => !isNaN(Number(page)))
-    .map((_i, page) => Number(page) - 1)
+    .map((_i, page) => Number(page))
     .get();
 };
 
@@ -25,7 +25,7 @@ const parseResponse = (page: number, { data }: { data: string }) => {
   const $ = load(data);
 
   const videos = getVideos($);
-
+  
   const pagination = {
     page,
     pages: getPages($),

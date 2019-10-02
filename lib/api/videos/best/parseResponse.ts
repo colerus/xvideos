@@ -17,7 +17,7 @@ const getPages = ($: CheerioStatic) => {
     .map((_i, page) => $(page)
       .text())
     .filter((_i, page) => !isNaN(Number(page)))
-    .map((_i, page) => Number(page) - 1)
+    .map((_i, page) => Number(page))
     .get();
 };
 
@@ -34,11 +34,11 @@ const getPages = ($: CheerioStatic) => {
   return {
     videos,
     pagination,
-    refresh: createRefreshFunction(pagination),
-    hasNext: createHasNextFunction(pagination),
+    refresh: () => { return createRefreshFunction(pagination) },
+    hasNext: (): boolean => { return createHasNextFunction(pagination) },
     next: createNextFunction(pagination),
-    hasPrevious: createHasPreviousFunction(pagination),
-    previous: createPreviousFunction(pagination),
+    hasPrevious: (): boolean =>  { return createHasPreviousFunction(pagination) },
+    previous: createPreviousFunction(pagination) ,
   };
 };
 

@@ -1,8 +1,7 @@
-import * as base from '../../base';
+import base from '../../base';
 
-const BASE_URL = base.default.BASE_URL;
-
-const parseVideo = ($: CheerioAPI | CheerioStatic, video: string) => {
+const BASE_URL = base.BASE_URL;
+const parseVideo = ($: CheerioStatic, video: CheerioElement) => {
   const $video = $(video);
 
   const title = $video.find('p:not(".metadata") a').attr('title');

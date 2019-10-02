@@ -7,9 +7,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var _videos = __importStar(require("./videos"));
-var api = {
-    videos: _videos,
-};
-exports.default = api;
-//# sourceMappingURL=index.js.map
+var api = __importStar(require("./lib/api"));
+var xv = api.default.videos;
+xv.verified().then(function (_data) {
+    console.log("rodou");
+});
+//# sourceMappingURL=teste.js.map

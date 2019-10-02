@@ -12,7 +12,7 @@ var createHasPreviousFunction_1 = __importDefault(require("./createHasPreviousFu
 var createPreviousFunction_1 = __importDefault(require("./createPreviousFunction"));
 var getVideos = function ($) {
     return $('#content > .mozaique > .thumb-block')
-        .map(function (_i, video) { return parseVideo_1.default($, video.nodeValue); })
+        .map(function (_i, video) { return parseVideo_1.default($, video); })
         .get();
 };
 var getPages = function ($) {
@@ -20,7 +20,7 @@ var getPages = function ($) {
         .map(function (_i, page) { return $(page)
         .text(); })
         .filter(function (_i, page) { return !isNaN(Number(page)); })
-        .map(function (_i, page) { return Number(page) - 1; })
+        .map(function (_i, page) { return Number(page); })
         .get();
 };
 var parseResponse = function (page, _a) {

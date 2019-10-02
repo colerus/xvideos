@@ -42,28 +42,30 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var base_1 = __importDefault(require("../../base"));
 var parseResponse_1 = __importDefault(require("./parseResponse"));
 var PATH = '/best';
-var best = (function (input) { return __awaiter(void 0, void 0, void 0, function () {
+var best = function (input) { return __awaiter(void 0, void 0, void 0, function () {
     var url, request, _a, _b;
     return __generator(this, function (_c) {
         switch (_c.label) {
             case 0:
+                if (!input)
+                    input = { year: undefined, month: undefined, page: undefined };
                 if (!input.year)
                     input.year = new Date().getFullYear();
                 if (!input.month)
-                    input.month = new Date().getMonth() + 1; // Date.getMonth is zero based
-                if (!input.page)
+                    input.month = new Date().getMonth(); // Date.getMonth is zero based
+                if (!input.page && input.page !== 0)
                     input.page = 1;
-                if (input.page < 1 || input.page > Number.MAX_SAFE_INTEGER) {
+                if (!input || !input.page || input.page < 1 || input.page > Number.MAX_SAFE_INTEGER) {
                     throw new Error("Invalid page: " + input.page);
                 }
-                url = PATH + "/" + input.year + "-" + input.month + "/" + (input.page === 0 ? '' : input.page);
-                request = base_1.default.createRequest();
+                url = "" + base_1.default.BASE_URL + PATH + "/" + input.year + "-" + input.month.toString().padStart(2, "0") + "/" + (input.page === 0 ? '' : input.page);
+                request = base_1.default.createRequest({ url: url });
                 _a = parseResponse_1.default;
                 _b = [input.page];
                 return [4 /*yield*/, request.get(url)];
             case 1: return [2 /*return*/, _a.apply(void 0, _b.concat([_c.sent()]))];
         }
     });
-}); });
+}); };
 exports.default = best;
 //# sourceMappingURL=best.js.map

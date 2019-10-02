@@ -42,7 +42,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = __importDefault(require("chai"));
-var best_1 = __importDefault(require("./best"));
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
     chai_1.default.should();
 });
@@ -51,7 +52,7 @@ describe('api/videos/best', function () {
         var list, previous, next;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, best_1.default({ page: 2 })];
+                case 0: return [4 /*yield*/, videos.best({ page: 2 })];
                 case 1:
                     list = _a.sent();
                     list.should.be.an('object');
@@ -59,7 +60,7 @@ describe('api/videos/best', function () {
                     list.pagination.page.should.be.equals(2);
                     list.pagination.pages.should.be.an('array');
                     list.pagination.pages[0].should.be.a('number');
-                    list.hasNext.should.be.a('function');
+                    list.hasNext.should.be.a('function', "Tipo: " + typeof list.hasNext);
                     list.hasNext().should.be.equals(true);
                     list.hasPrevious.should.be.a('function');
                     list.hasPrevious().should.be.equals(true);
@@ -166,7 +167,7 @@ describe('api/videos/best', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, best_1.default({ page: Number.MAX_SAFE_INTEGER + 1 })];
+                    return [4 /*yield*/, videos.best({ page: Number.MAX_SAFE_INTEGER + 1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -187,9 +188,9 @@ describe('api/videos/best', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, best_1.default({ page: 0 })];
+                    return [4 /*yield*/, videos.best({ page: 0 })];
                 case 1:
-                    _a.sent();
+                    err = _a.sent();
                     return [3 /*break*/, 4];
                 case 2:
                     error_2 = _a.sent();
@@ -203,3 +204,4 @@ describe('api/videos/best', function () {
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=best.spec.js.map

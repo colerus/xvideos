@@ -1,4 +1,4 @@
-import * as base from "../../base";
+import base from "../../base";
 import parseResponse from './parseResponse';
 
 const PATH = '/verified/videos';
@@ -9,7 +9,7 @@ const verified = async ({ page = 1 } = {}) => {
   }
 
   const url = `${PATH}/${page === 0 ? '' : page}`;
-  const request = base.default.createRequest();
+  const request = base.createRequest();
 
   return parseResponse(page, await request.get(url));
 };

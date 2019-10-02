@@ -1,5 +1,4 @@
 "use strict";
-/* eslint-disable padded-blocks */
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -41,20 +40,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var details_1 = __importDefault(require("./details"));
-var dashboard_1 = __importDefault(require("../dashboard"));
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
     chai_1.should();
 });
 describe('api/videos/details', function () {
     it('should retrieve video details', function () { return __awaiter(void 0, void 0, void 0, function () {
-        var videos, video;
+        var dashboard, video;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, dashboard_1.default()];
+                case 0: return [4 /*yield*/, videos.dashboard()];
                 case 1:
-                    videos = (_a.sent()).videos;
-                    return [4 /*yield*/, details_1.default(videos[0])];
+                    dashboard = _a.sent();
+                    return [4 /*yield*/, videos.details(dashboard.videos[0])];
                 case 2:
                     video = _a.sent();
                     video.should.be.an('object');
@@ -91,3 +90,4 @@ describe('api/videos/details', function () {
         });
     }); }).timeout(100000);
 });
+//# sourceMappingURL=details.spec.js.map

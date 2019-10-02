@@ -36,24 +36,28 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var _1 = require("./");
+var _1 = __importDefault(require("./"));
+var videos = _1.default.videos;
 before(function () {
     chai_1.should();
 });
 describe('xvideos', function () {
     it('should have xvideos api functions', function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            _1.should.be.an('object');
-            _1.videos.should.be.an('object');
-            _1.videos.dashboard.should.be.a('function');
-            _1.videos.fresh.should.be.a('function');
-            _1.videos.search.should.be.a('function');
-            _1.videos.best.should.be.a('function');
-            _1.videos.verified.should.be.a('function');
-            _1.videos.details.should.be.a('function');
+            videos.should.be.an('object');
+            videos.dashboard.should.be.a('function');
+            videos.fresh.should.be.a('function');
+            videos.search.should.be.a('function');
+            videos.best.should.be.a('function');
+            videos.verified.should.be.a('function');
+            videos.details.should.be.a('function');
             return [2 /*return*/];
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=xvideos.spec.js.map

@@ -41,7 +41,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var search_1 = __importDefault(require("./search"));
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
     chai_1.should();
 });
@@ -50,7 +51,7 @@ describe('api/videos/search', function () {
         var list, previous, next;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, search_1.default({ key: 'novinha', page: 2 })];
+                case 0: return [4 /*yield*/, videos.search({ key: 'novinha', page: 2 })];
                 case 1:
                     list = _a.sent();
                     list.should.be.an('object');
@@ -171,7 +172,7 @@ describe('api/videos/search', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, search_1.default({ key: 'novinha', page: Number.MAX_SAFE_INTEGER + 1 })];
+                    return [4 /*yield*/, videos.search({ key: 'novinha', page: Number.MAX_SAFE_INTEGER + 1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -192,7 +193,7 @@ describe('api/videos/search', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, search_1.default({ key: 'novinha', page: 0 })];
+                    return [4 /*yield*/, videos.search({ key: 'novinha', page: 0 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -208,3 +209,4 @@ describe('api/videos/search', function () {
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=search.spec.js.map

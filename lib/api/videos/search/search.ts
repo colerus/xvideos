@@ -7,7 +7,7 @@ const search = async (input: { key: string, page?: number }) => {
   if (!input.key) {
     throw new Error('Invalid search keyword.');
   }
-  if (!input.page) input.page = 1;  
+  if (!input.page && input.page !== 0) input.page = 1;  
   if (input.page < 1 || input.page > Number.MAX_SAFE_INTEGER) {
     throw new Error(`Invalid page: ${input.page}`);
   }

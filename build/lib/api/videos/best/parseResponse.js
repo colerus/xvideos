@@ -20,7 +20,7 @@ var getPages = function ($) {
         .map(function (_i, page) { return $(page)
         .text(); })
         .filter(function (_i, page) { return !isNaN(Number(page)); })
-        .map(function (_i, page) { return Number(page) - 1; })
+        .map(function (_i, page) { return Number(page); })
         .get();
 };
 var parseResponse = function (page, _a) {
@@ -34,10 +34,10 @@ var parseResponse = function (page, _a) {
     return {
         videos: videos,
         pagination: pagination,
-        refresh: createRefreshFunction_1.default(pagination),
-        hasNext: createHasNextFunction_1.default(pagination),
+        refresh: function () { return createRefreshFunction_1.default(pagination); },
+        hasNext: function () { return createHasNextFunction_1.default(pagination); },
         next: createNextFunction_1.default(pagination),
-        hasPrevious: createHasPreviousFunction_1.default(pagination),
+        hasPrevious: function () { return createHasPreviousFunction_1.default(pagination); },
         previous: createPreviousFunction_1.default(pagination),
     };
 };

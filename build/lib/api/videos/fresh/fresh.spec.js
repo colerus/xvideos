@@ -40,17 +40,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var chai_as_promised_1 = require("chai-as-promised");
-var fresh_1 = __importDefault(require("./fresh"));
+var chai_1 = require("chai");
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
-    chai_as_promised_1.should();
+    chai_1.should();
 });
 describe('api/videos/fresh', function () {
     it('should list fresh video pages', function () { return __awaiter(void 0, void 0, void 0, function () {
         var list, previous, next;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, fresh_1.default({ page: 2 })];
+                case 0: return [4 /*yield*/, videos.fresh({ page: 2 })];
                 case 1:
                     list = _a.sent();
                     list.should.be.an('object');
@@ -165,7 +166,7 @@ describe('api/videos/fresh', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, fresh_1.default({ page: Number.MAX_SAFE_INTEGER + 1 })];
+                    return [4 /*yield*/, videos.fresh({ page: Number.MAX_SAFE_INTEGER + 1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -186,7 +187,7 @@ describe('api/videos/fresh', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, fresh_1.default({ page: 0 })];
+                    return [4 /*yield*/, videos.fresh({ page: 0 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -202,3 +203,4 @@ describe('api/videos/fresh', function () {
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=fresh.spec.js.map

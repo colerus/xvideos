@@ -20,7 +20,7 @@ var getPages = function ($) {
         .map(function (_i, page) { return $(page)
         .text(); })
         .filter(function (_i, page) { return !isNaN(Number(page)); })
-        .map(function (_i, page) { return Number(page) - 1; })
+        .map(function (_i, page) { return Number(page); })
         .get();
 };
 var parseResponse = function (page, _a) {

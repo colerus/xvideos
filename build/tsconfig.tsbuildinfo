@@ -125,33 +125,13 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
-      "../lib/api/index.ts": {
-        "version": "e721f6262788b53b431a02cb5b471e862cbfe0340501e979b11b1755f4713f11",
-        "signature": "fdcd973cd13a63dafe31f453a02b12f0608b6680e540610be795ead4b59dbdd2"
-      },
-      "../lib/xvideos.ts": {
-        "version": "fc8f4498c6d1479f415e0c0bd9812758ae967cfc9f8b964c04abecc465839d74",
-        "signature": "6824e6e38c8269ee9ea974d3f3991db0fd9956760e13030154ccddf0e2ab61f8"
-      },
-      "../lib/index.ts": {
-        "version": "96b8774d2f266b1852e510fcddbc5daa7ad94728081b4e51628f37ad554793f0",
-        "signature": "457f1ce005f18a02b2d60f538cd9e08b35c3e0f9b67a994bde9fbcee4a3ec132"
-      },
-      "../index.ts": {
-        "version": "f0d3028d1b53b82dd6097d94cda4533dd4bcf4cff099fa73a0b9c3235569424c",
-        "signature": "648bf273837feb6e11fc58aae90dabe381ef8289c5e2a820d119c669694579b7"
-      },
       "../node_modules/axios/index.d.ts": {
         "version": "7d04801f5ace7a92365ca303eaf7ac2adab6b4c52d9779c8d90824e5218ddc78",
         "signature": "7d04801f5ace7a92365ca303eaf7ac2adab6b4c52d9779c8d90824e5218ddc78"
       },
       "../lib/api/base.ts": {
-        "version": "b28f9f003a95f09cbafe6d5c1dfbfd4b93cbab4de7b628592fa06d9523704152",
-        "signature": "a10ef5ae9ccb84703e8c08ac2f8563a8f36d58447540d4ecd866048ddd6aab4f"
-      },
-      "../lib/api/videos/index.ts": {
-        "version": "48ae989af3a29db5bdf529579a8ffc7aebb5c93db9068de49afb433b02fa5295",
-        "signature": "ae15f0fbe13cf1623f6d1dbb3c9e0e7f98eea59524f6f47225352b0392c1f99d"
+        "version": "0a0d243b6121f89cc6bc679f8b170afaf31532cc09249fd8c75dd514644d07d5",
+        "signature": "f8285d6b757a1541090bd5218573e33c5764084eab8c68e4a8cc5af6ad9867cc"
       },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "e4461b72726848da76a31153b6b01af5e0be3b08dbfa2ec5741ad302eb20f2ed",
@@ -334,76 +314,76 @@
         "signature": "5b92b2f6901b4e84e6196ac4d8574ecba2ccd956f7bdf80800f384e7b4e15d38"
       },
       "../lib/api/videos/best/parsevideo.ts": {
-        "version": "d7fa7272b4d688894091d0670895ef703247a2b1586c4b867a8f54e93ab426ca",
+        "version": "f2868d0eec9ebf54d7f11171bb0d29532d62a507618b74a085fab6d6795ed62b",
         "signature": "008a566fbbb8125b24f07dc9f73bc5980497103845f20437620d4cebdf51db4d"
       },
       "../lib/api/videos/best/createrefreshfunction.ts": {
-        "version": "7a27b07f87205e447c1a4c78e9529ae10be7a999d49b61de72b5d810d187da7c",
-        "signature": "9080124398be6b775a3755491e46ad9e3ed58b99faad9c382c524a1d105fd5d6"
+        "version": "c1fbcf4e4aa4963409319c275c352875b1e061fa3fb4321bff26cd7c9d906b55",
+        "signature": "4f2097da3fe19db6a6e63ecb17c96c350b622e5542a3f3f9e1169bf0f439ec74"
       },
       "../lib/api/videos/best/createhasnextfunction.ts": {
-        "version": "13b5a8929a128fac8198ee4f8dd066e3972592b777887e579ad934888dfdffec",
+        "version": "d121401014c262db4682107c8df5990797fb7613cf1178a067e686034e6ef4e7",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../lib/api/videos/best/createnextfunction.ts": {
-        "version": "0b5051557d2bab3d964b298356e8f0ce33d8c392be01af88b6a039f1c67d4b2e",
-        "signature": "5735c0070eec7262ef3a89399600c315ec604c23923b872589609c045d1ef970"
+        "version": "41171b68f83d28ce494f0103524159cf3944fe8f527a88416876c1df5bfc6336",
+        "signature": "c6ef4d69e9a7deaab7348c2632c6aef5220a0f934d303a0201fe08b208547e24"
       },
       "../lib/api/videos/best/createhaspreviousfunction.ts": {
-        "version": "786d5cdf7a820dcbb337a8a2946ad36e2ff8ca904d080a5c5e4d7663ed6840ba",
+        "version": "f441e564f8fd8af5edddadedcc68ff4961a4472b8f8fb3751967104a24af719e",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../lib/api/videos/best/createpreviousfunction.ts": {
-        "version": "208cb1e6168164af745685ded4b592c748c19a59e404bef7934c36434b46f5eb",
-        "signature": "05535123233c93501213bf92082399cf3fd68474675f1fba0498c473b97b7f0f"
+        "version": "e5bdbe19a0ad72cee1866ddf8526c9be4cf30d509665d7953dbee5538ba05308",
+        "signature": "ba69790bdd26f2c343e0ff90a5a66adf309016f90cd84da2d6fa4c1c573fb934"
       },
       "../lib/api/videos/best/parseresponse.ts": {
-        "version": "dffb2faf858dd5a268ffb0db47350037b634fef0c4e91ebd700db9f3d5e98472",
-        "signature": "909a74371930a59ebc60054f42477fa3060feebcab2bbb07471e67b9569ca98d"
+        "version": "891dc62cf26e8fb8abf45cbed81a3f8dbea65feef544f09857272b197ce1dc0c",
+        "signature": "ce2ff0ed3abfdc5d7013668306237a4b835d2da49a86acb2f73b1c3827335c09"
       },
       "../lib/api/videos/best/best.ts": {
-        "version": "a805370dc4e7d09ec8964ee2c55f3bd70e09e6dc39e0ef82d20f8a07da025af9",
-        "signature": "d948b5cee4402f0875181f72fb34ab94d905ba0a93a456192587875b40bf1213"
+        "version": "79468865ca4278dfe557271a96ee547054890cbfe8aa378ee6a571909bad71cd",
+        "signature": "1c7770a8af92d8c5ccd28c95c9bb0bccaa298174f442e67b7f67c3632196dc8b"
       },
       "../lib/api/videos/best/index.ts": {
-        "version": "1fa1431aacd68bc8af94114d70247b334d598c286e492999675a5b64ebab4b79",
-        "signature": "255560c08c79f9cefa98a06f222ba3e80f1d08bd9207bdc9d5ccc13664ee4e9e"
-      },
-      "../lib/api/videos/dashboard/createhasnextfunction.ts": {
-        "version": "3ffa54697d006031a135426351b489bb3059e4505a9b490ae3cab6b83fbff35a",
-        "signature": "4ef948ef9ef113372594528e6213880743d8b4b9d9141703631cc64c9c0e401c"
-      },
-      "../lib/api/videos/dashboard/createhaspreviousfunction.ts": {
-        "version": "390e70336efcdf1abe09e04daf2ac30d1ee0502472ce96cba0fd166028068f6f",
-        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
+        "version": "009d28099608b4196009993f2bb99cb63e0d51072c8807f56ef8b50bf815aad6",
+        "signature": "009d28099608b4196009993f2bb99cb63e0d51072c8807f56ef8b50bf815aad6"
       },
       "../lib/api/videos/dashboard/parsevideo.ts": {
-        "version": "d7fa7272b4d688894091d0670895ef703247a2b1586c4b867a8f54e93ab426ca",
+        "version": "f2868d0eec9ebf54d7f11171bb0d29532d62a507618b74a085fab6d6795ed62b",
         "signature": "008a566fbbb8125b24f07dc9f73bc5980497103845f20437620d4cebdf51db4d"
       },
       "../lib/api/videos/dashboard/createrefreshfunction.ts": {
-        "version": "e75853a965eb8bd286ec8153ef3983edbdcbdd763f09e8b4e8e3d447ba9972f1",
-        "signature": "71b1f2ce71006c8d327fbc63da22a4d34263017e980b022a2f9110cc8ba7056f"
+        "version": "56eabe999b5bd3e1df39d36e78f1fcdc3c17c4f1dcc395fa1c0f0855d7e40119",
+        "signature": "d43f44013561a605154a21c6c1a74103cccaf9a05f4bc7dbb485fcc6b44611e6"
       },
-      "../lib/api/videos/dashboard/createpreviousfunction.ts": {
-        "version": "2d1a1d0b2fb1c8295ed135b7b3034bc90f1c92177ee8d84a95f273d5f41d4fc1",
-        "signature": "c170915be5af4e2dad279abdae6293273d7d21156c600644b3e02c2dbc1a268a"
-      },
-      "../lib/api/videos/dashboard/parseresponse.ts": {
-        "version": "54a7dc363f826afe0c3cebe24bf3ccfed56e2fa09535e0e9ff290dc28f2df31f",
-        "signature": "97ea004449feea6b250e66a7bc3b09b2ce6c979ce4111c06ecd4f640dec9dce5"
-      },
-      "../lib/api/videos/dashboard/dashboard.ts": {
-        "version": "bdb65574b6ceb32c8c97cc1c67f5a950b2da3e84ea1b2a5333b1303b51774886",
-        "signature": "8b9f08c4a4c304fb3b41a2323f80306cf886815d63377a73a5be022a48371ef0"
+      "../lib/api/videos/dashboard/createhasnextfunction.ts": {
+        "version": "bdac3925ed8562c83c0ac6482471480eaffa8b0a063e854668a855a24b808877",
+        "signature": "333880cb74aacfb5c17628a8c7d591fd7b62c1b9726782a5942b51ea4b7c40d7"
       },
       "../lib/api/videos/dashboard/createnextfunction.ts": {
-        "version": "ef8c89bc2e431fccb5f4b9f965f73db3e4ddd6dad622a87c1b285de517f50d6e",
-        "signature": "d7d47615bdc4c4a633f5ae5b5a1a38b240c89dd7ceeee02f793103d09711db8e"
+        "version": "1bcfc3d87db7fba98ee1ef47ce178919a0626d644fc325d54ed2f2ceeaa05607",
+        "signature": "e5872d31355f0949b0af35fe9e042c49c404a3be24a30753f120565295c2b9fa"
+      },
+      "../lib/api/videos/dashboard/createhaspreviousfunction.ts": {
+        "version": "8d27629298e27840487ee14e436ac76b10479521771fcb99e70bb7607d3e5e11",
+        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
+      },
+      "../lib/api/videos/dashboard/createpreviousfunction.ts": {
+        "version": "051c69b8c09d99d2e82a6d1890ee9ae211b51eaaaa2c7e70ca5bda884b7e9a0e",
+        "signature": "07feb399e48e64ae037ad2c2c98755d5331c3fb05088d6e7dc40d0d5f84b1da9"
+      },
+      "../lib/api/videos/dashboard/parseresponse.ts": {
+        "version": "70669bac2e0eaa811e6d9b4e7d37edef02506c6fe8cc76577233bae7661a6b3e",
+        "signature": "0928128a3d2f06f65f9a44ef6aba478d8af5404fef34b2c10b7c2e6bac69ab0f"
+      },
+      "../lib/api/videos/dashboard/dashboard.ts": {
+        "version": "aca1f0fb29150ea285e2846c97b14c3f35aa5ebc97a5e4ffc55ff89df6122d31",
+        "signature": "db14512f72cd850ca60534b3a804feecc67827a844e701ec396169cefdcb31ed"
       },
       "../lib/api/videos/dashboard/index.ts": {
-        "version": "0e5c44f3c26cb14ff9fa18c330d49b2edfe9cf1241eac7a1f861f485206fb5c0",
-        "signature": "67b5122bb23c66046bdb0ad56040e1aa43bb49c643566f65b440d88f41edb826"
+        "version": "ff937321cad952216cf7b4b515b838761b61040b4c6af54bbb51ba60413b6133",
+        "signature": "ff937321cad952216cf7b4b515b838761b61040b4c6af54bbb51ba60413b6133"
       },
       "../node_modules/@types/puppeteer/errors.d.ts": {
         "version": "24074eb89fe21d5d7d8a5ed86e6c56939cf32d533f68bae213b0cdac74e03d3b",
@@ -418,120 +398,165 @@
         "signature": "fc3e29ded3bab77747b9caf13a22771af46a123de048bae886956c2884649dea"
       },
       "../lib/api/videos/details/details.ts": {
-        "version": "7f06bf8d06b3486adfbc1927ca8fd94f41e6043a6787477cca2de6342ccab895",
+        "version": "0e9968354f936d62a1a6732413a61c05f7895af2f8b106250a39cb87985783d0",
         "signature": "04e2e79a12d44b7154a807704052d21bdb0413736450fa406552be857cc1c143"
       },
       "../lib/api/videos/details/index.ts": {
-        "version": "f4e0da9a3ea02b0f8dfe7c23c522df0a17b2d2c804f756eaca700894280527f9",
+        "version": "796a9af0a761ebfdac43a2c7d2f7f4cf25871147478b497eaedcbf3f082a19d2",
         "signature": "a603dfdc39f5630fed07e1ce7c9ce405ce0b7f55a002aa5c8c17ad80476c0081"
       },
-      "../lib/api/videos/fresh/createhasnextfunction.ts": {
-        "version": "3ffa54697d006031a135426351b489bb3059e4505a9b490ae3cab6b83fbff35a",
-        "signature": "4ef948ef9ef113372594528e6213880743d8b4b9d9141703631cc64c9c0e401c"
-      },
-      "../lib/api/videos/fresh/createhaspreviousfunction.ts": {
-        "version": "390e70336efcdf1abe09e04daf2ac30d1ee0502472ce96cba0fd166028068f6f",
-        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
-      },
       "../lib/api/videos/fresh/parsevideo.ts": {
-        "version": "47521c0e84fb5be6fdc4ca68ea247d906e6519393856db55f43ab10ddc9725e3",
+        "version": "255eecd290d7b0442959debd9652ef92c030992a353ccd4b20d56ddf682fc881",
         "signature": "008a566fbbb8125b24f07dc9f73bc5980497103845f20437620d4cebdf51db4d"
       },
       "../lib/api/videos/fresh/createrefreshfunction.ts": {
-        "version": "b8247cdfa8b9e62cf38817b47a798baf703c296caf58d47967c61be438b3af3e",
+        "version": "b7738e48116df38955f60a671971216d18391cc5eb423d3e7b0029227e5031d0",
         "signature": "624ddc50b2b0821a35bdd97a05c7ab2323ed6bbb8828b4502821ba1b96b0c826"
       },
+      "../lib/api/videos/fresh/createhasnextfunction.ts": {
+        "version": "9d3a889fa9f32360afa420a828a978ad30383def1acad817fd528eb575b9f440",
+        "signature": "4ef948ef9ef113372594528e6213880743d8b4b9d9141703631cc64c9c0e401c"
+      },
+      "../lib/api/videos/fresh/createnextfunction.ts": {
+        "version": "7b0a58e5efcf03b23592a974bdaec3098dc0cac7df16f7b83cdc35354177d3b7",
+        "signature": "280093a118ff26ce3b555edb1872667e020ce862eeaf77d7d49507c1986fac35"
+      },
+      "../lib/api/videos/fresh/createhaspreviousfunction.ts": {
+        "version": "8d27629298e27840487ee14e436ac76b10479521771fcb99e70bb7607d3e5e11",
+        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
+      },
       "../lib/api/videos/fresh/createpreviousfunction.ts": {
-        "version": "9478d5c48887673ff37768c30f24af43c88fbc2bc520aea51334ff9b13b022c2",
+        "version": "a6efba8fe33997ea49431f3290659ef8a7c885026c98ceb49161c7027825c8dd",
         "signature": "dd5611a953b4cf1ccb29b9a15b2ed2b0a808904b99681df866f95126cfb1a9ad"
       },
       "../lib/api/videos/fresh/parseresponse.ts": {
-        "version": "54a7dc363f826afe0c3cebe24bf3ccfed56e2fa09535e0e9ff290dc28f2df31f",
+        "version": "1a73a3fe921831662461fa540a9a7cfff863ad9644e60abe05c52afc8540ade8",
         "signature": "97ea004449feea6b250e66a7bc3b09b2ce6c979ce4111c06ecd4f640dec9dce5"
       },
       "../lib/api/videos/fresh/fresh.ts": {
-        "version": "b5938629504009b305a1b7dd71f7b4e95868089315d82d41f06d45a77ac4839e",
+        "version": "122b0d7dd71d9f2cbc2c14fc243d96f83986bd399b63f179c27df8e1c21011cb",
         "signature": "e89159fe993737abe5c218da1719b071eb32ee985b36105473435fb2bf82b342"
       },
-      "../lib/api/videos/fresh/createnextfunction.ts": {
-        "version": "5c9554368760b5195e5b0b81e77b8c29a8657e752766c98d26ac8dab0082ece8",
-        "signature": "280093a118ff26ce3b555edb1872667e020ce862eeaf77d7d49507c1986fac35"
-      },
       "../lib/api/videos/fresh/index.ts": {
-        "version": "68f71c3dbaaafd2f1760c115e71a5c4a9163cbb79c56b5413164a579aa864152",
+        "version": "6df0320e84ee9188b00011f265fd6952fefe52cd06ff4047c081ce0a814116a8",
         "signature": "675b547d289a893511401a1ffeb51b0579ec13522dc0e1a7f2b31572e9ea5834"
       },
-      "../lib/api/videos/search/createhasnextfunction.ts": {
-        "version": "3ffa54697d006031a135426351b489bb3059e4505a9b490ae3cab6b83fbff35a",
-        "signature": "333880cb74aacfb5c17628a8c7d591fd7b62c1b9726782a5942b51ea4b7c40d7"
-      },
-      "../lib/api/videos/search/createhaspreviousfunction.ts": {
-        "version": "390e70336efcdf1abe09e04daf2ac30d1ee0502472ce96cba0fd166028068f6f",
-        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
-      },
       "../lib/api/videos/search/parsevideo.ts": {
-        "version": "d7fa7272b4d688894091d0670895ef703247a2b1586c4b867a8f54e93ab426ca",
-        "signature": "c831b85ffb5495261d57d2826e0f151adbafedfb5ab66ef2615180f5c93c5719"
+        "version": "f2868d0eec9ebf54d7f11171bb0d29532d62a507618b74a085fab6d6795ed62b",
+        "signature": "008a566fbbb8125b24f07dc9f73bc5980497103845f20437620d4cebdf51db4d"
       },
       "../lib/api/videos/search/createrefreshfunction.ts": {
-        "version": "1e377cd3bfcbc1a17ed33957923d00e9747c642649e20dd85dd3bdab8ee039b6",
-        "signature": "a2eaae073b9dcb5306cec2236ee7bd71ee68fc3f4f879d76801653b28f032704"
+        "version": "1a09b53de9ca2306dec3dc031d9f453b8faf258704131937ce697475ec0ad0db",
+        "signature": "04c2c30ec6417edaa2a783684dbeb294b326db3b641ea9a6cfc40d6701665291"
       },
-      "../lib/api/videos/search/createpreviousfunction.ts": {
-        "version": "0a31f1944354b3aa668097a109a497bcb5de03604280f8ac293d53e08e5e41b7",
-        "signature": "7a31bb87814571b5cf63a31d16ff0c4fa23a1049b5cd1433356dcd6b04e269c5"
-      },
-      "../lib/api/videos/search/parseresponse.ts": {
-        "version": "dd2172ae7e24ca0bf44e3e97f87363ca05bc4080d7a4a9be0dbe55f6557cb646",
-        "signature": "18c585be13b6f32a4f1f1f2562c6785dd5f5e8df3271d47ba00863a08e45d67b"
-      },
-      "../lib/api/videos/search/search.ts": {
-        "version": "e6d6e0dba0d52c85f3096ac76a514fabd67f80ccb534754842f0d3bdc8d7a6d8",
-        "signature": "6417ad18e54859020fa0f3ae8a2b0217e49756da7c1e9144b46feddc41ea4a19"
+      "../lib/api/videos/search/createhasnextfunction.ts": {
+        "version": "9d3a889fa9f32360afa420a828a978ad30383def1acad817fd528eb575b9f440",
+        "signature": "4ef948ef9ef113372594528e6213880743d8b4b9d9141703631cc64c9c0e401c"
       },
       "../lib/api/videos/search/createnextfunction.ts": {
-        "version": "91a17f289deee55c816e6740566ea5f05c3f4c29f7dcf4a23a907d7984098e04",
-        "signature": "208b72cf1eff80fbb25d9a57709dae22c324439f61d588fdf70911ab61265c9d"
+        "version": "87abcbd5bfa11a12109cc67d7e17bf4a4e2f593ae8ce9830b3e8ce30a8c3310a",
+        "signature": "dd1fc60082562f1de9f8c9bc4b594db24698ef1c1f688d5d7b3c0cee129cb121"
+      },
+      "../lib/api/videos/search/createhaspreviousfunction.ts": {
+        "version": "8d27629298e27840487ee14e436ac76b10479521771fcb99e70bb7607d3e5e11",
+        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
+      },
+      "../lib/api/videos/search/createpreviousfunction.ts": {
+        "version": "dbfb0a1349c2846659263ef7ba30c6e9cff15b68c151f148615153b98dcd5ba3",
+        "signature": "52a479f5b15aeb6f938fbdc003d8aed1ed4c2cea328abb6d20bd1aa4e53870a0"
+      },
+      "../lib/api/videos/search/parseresponse.ts": {
+        "version": "4b0a396ba8568a9b68ba4fe88769334da90532852b886a925eba2bc529e04572",
+        "signature": "79d0eb080efbd1623e49c9229df13c186f44426984506f7e00485273b7355bf7"
+      },
+      "../lib/api/videos/search/search.ts": {
+        "version": "fc06d6983ebc4847cdc36e4335032164c8febbf1d3e39a0d369ba274877973a5",
+        "signature": "e637a3dc06c2ef64452ac39be87c59cb4dbb45376bdf196eec8444d24a0c4d57"
       },
       "../lib/api/videos/search/index.ts": {
-        "version": "acbb9cf23e7341436afdc2e74f30aebc0555cc2aca2da0886a24c9711013ec82",
-        "signature": "84ee3a2fe8ca96c37501bc0d9a20fb4140c18164c2f97c84c3d5082abd3b61bf"
-      },
-      "../lib/api/videos/verified/createhasnextfunction.ts": {
-        "version": "3ffa54697d006031a135426351b489bb3059e4505a9b490ae3cab6b83fbff35a",
-        "signature": "333880cb74aacfb5c17628a8c7d591fd7b62c1b9726782a5942b51ea4b7c40d7"
-      },
-      "../lib/api/videos/verified/createhaspreviousfunction.ts": {
-        "version": "390e70336efcdf1abe09e04daf2ac30d1ee0502472ce96cba0fd166028068f6f",
-        "signature": "98b00abd897360ab2a1700fc7ddbf87ed36f42e960fdbf2253a528afb55d0d1c"
+        "version": "b143975e13657f29cab0d15898b0cb1fcb5b0f436f2cd8e1b1171a4d56b4f08c",
+        "signature": "b143975e13657f29cab0d15898b0cb1fcb5b0f436f2cd8e1b1171a4d56b4f08c"
       },
       "../lib/api/videos/verified/parsevideo.ts": {
-        "version": "fb95cdea84a4b83f20bac06f806bc893f0b69793e65b0c59594274297218e39e",
-        "signature": "c003522d2f4548f3eb8f76171bd53c42b7a02a5796fa316149c50591665eafe7"
+        "version": "47521c0e84fb5be6fdc4ca68ea247d906e6519393856db55f43ab10ddc9725e3",
+        "signature": "c831b85ffb5495261d57d2826e0f151adbafedfb5ab66ef2615180f5c93c5719"
       },
       "../lib/api/videos/verified/createrefreshfunction.ts": {
-        "version": "7bfd5fcb364a06e0cf224fecf5eb600cae0cf80514b39c8f9f24188868abcd22",
+        "version": "b79e5f41c1a2c21576601c53ee6a6c9717f7083ed839937e2dc2c9b8778fa3f0",
         "signature": "8d4f2d30a50f6aea986274a3f3e35908b67c967fccddaee153961551d1a30d9a"
       },
+      "../lib/api/videos/verified/createhasnextfunction.ts": {
+        "version": "9d3a889fa9f32360afa420a828a978ad30383def1acad817fd528eb575b9f440",
+        "signature": "4ef948ef9ef113372594528e6213880743d8b4b9d9141703631cc64c9c0e401c"
+      },
+      "../lib/api/videos/verified/createnextfunction.ts": {
+        "version": "0f8ca045159d8b1752c24a6cdd37a25d961e6d7772f3ff90e8ef99c2e6a39ae6",
+        "signature": "c27deba66619c089e82b3d021f83f93449b99e536d154855ebf1b889cda58819"
+      },
+      "../lib/api/videos/verified/createhaspreviousfunction.ts": {
+        "version": "8d27629298e27840487ee14e436ac76b10479521771fcb99e70bb7607d3e5e11",
+        "signature": "9039e620141e89e587cd6a5b914a19204336d9b6647b9393c797ed0e8625976a"
+      },
       "../lib/api/videos/verified/createpreviousfunction.ts": {
-        "version": "b21671e83bc925cf0ce2b74227e2ebc972c9bb15b558b211e0e704dc94c44deb",
+        "version": "e65d4c9a7e3924c64b10d926c7a2bee96f0268b2277f1900317b5f5615d92a05",
         "signature": "0bb068f8802dfc30b80a61e62fe2b46b9b98c3e9f512c27f961659f1a1863c2b"
       },
       "../lib/api/videos/verified/parseresponse.ts": {
-        "version": "bb74f1d38c08fa86615f20e4eac619d311a2d4c418e54c82325a290c51370473",
+        "version": "9c47edea3b89f16366d5a2617bab541ff703228899808ab02f5f907dfae0247a",
         "signature": "0928128a3d2f06f65f9a44ef6aba478d8af5404fef34b2c10b7c2e6bac69ab0f"
       },
       "../lib/api/videos/verified/verified.ts": {
-        "version": "e5d5a00e1e88c8fb7d66420f588c03ba7047aba7d6c621ff2950a72bc5608c36",
+        "version": "47e686051d114882d75d090200e2e18bb1defc3e11999288fba9244c4c4e83c4",
         "signature": "c7807825549c90de29a13e5c412c02c0f24cbc266f1fcdecca19e65419cf644c"
-      },
-      "../lib/api/videos/verified/createnextfunction.ts": {
-        "version": "dba5fccf839e52b978350e10bdcb5c549f56202231bec8b96d068f1fd722c6bc",
-        "signature": "c27deba66619c089e82b3d021f83f93449b99e536d154855ebf1b889cda58819"
       },
       "../lib/api/videos/verified/index.ts": {
         "version": "7b2d576b733f65cd26496210e26ade9ef6a631383af29e232706d3032d877fab",
         "signature": "8e504f97b261b5ac29d990ecb39bdddfb2ace4b02cba465563e88fdd514aae0a"
+      },
+      "../lib/api/videos/index.ts": {
+        "version": "7f76f1fe9a5a471c1fa9bdd6d2ab58c0dd77004c01a92b48b78652d0c548801b",
+        "signature": "f3fca684940fc777f599a3ae47702da09879d92b6454bd6d858d46dad243a5d1"
+      },
+      "../lib/api/index.ts": {
+        "version": "18b591632b0f4c183612f9a7f4ee1f3b8d09d2a041c0f188be5b3c93c9acce3b",
+        "signature": "ff095a4cdb7a7e53044fc82a2fe07d9f3644ce6f54c7dd412a25685530f76289"
+      },
+      "../lib/xvideos.ts": {
+        "version": "7a71d00a093e84e1cde32319e8357cff01cd48b67e1e63277c3cc14ece050306",
+        "signature": "6824e6e38c8269ee9ea974d3f3991db0fd9956760e13030154ccddf0e2ab61f8"
+      },
+      "../lib/index.ts": {
+        "version": "457f1ce005f18a02b2d60f538cd9e08b35c3e0f9b67a994bde9fbcee4a3ec132",
+        "signature": "457f1ce005f18a02b2d60f538cd9e08b35c3e0f9b67a994bde9fbcee4a3ec132"
+      },
+      "../index.ts": {
+        "version": "648bf273837feb6e11fc58aae90dabe381ef8289c5e2a820d119c669694579b7",
+        "signature": "648bf273837feb6e11fc58aae90dabe381ef8289c5e2a820d119c669694579b7"
+      },
+      "../teste.ts": {
+        "version": "977ccb7ce4f05e228aa1b037bf8d017ce8dc15d959cd4b25dbd4cabc46fa7589",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "../lib/xvideos.spec.js": {
+        "version": "44da1c2f2267e7acc088e75dd6ca87d76776770e4fb72a8b21a6ff337e979204"
+      },
+      "../lib/api/videos/best/best.spec.js": {
+        "version": "855c4ec6b6572e942c6751dbd5d8c93888ce718b7c6da90537a40070539324f1"
+      },
+      "../lib/api/videos/dashboard/dashboard.spec.js": {
+        "version": "49aea0aa1f4af138f510f3f8d10786de80724fcbc3caa3cdf8219cfd97e18e5d"
+      },
+      "../lib/api/videos/details/details.spec.js": {
+        "version": "7e6beca039054dedaca8c269c91b99f790f2af9fbd687540a5ff1e7453c9aacf"
+      },
+      "../lib/api/videos/fresh/fresh.spec.js": {
+        "version": "775dda147c95d2346b73c7d60335c4e0cd7b7a38a6583ca96daf2756d9ea9cda"
+      },
+      "../lib/api/videos/search/search.spec.js": {
+        "version": "652192992d5ab6f3a71f4331046770d0ef78e76e831f281448e39e29511a2750"
+      },
+      "../lib/api/videos/verified/verified.spec.js": {
+        "version": "626ea774e007f171615000b3d7b3240398baea52687753cd8dd6e7727500ee0d"
       },
       "../node_modules/@types/eslint-visitor-keys/index.d.ts": {
         "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
@@ -546,8 +571,7 @@
       "incremental": true,
       "target": 1,
       "module": 1,
-      "declaration": true,
-      "declarationMap": true,
+      "allowJs": true,
       "sourceMap": true,
       "outDir": "./",
       "strict": true,
@@ -693,35 +717,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/index.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/xvideos.ts": [
-        "../lib/api/index.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/index.ts": [
-        "../lib/xvideos.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../index.ts": [
-        "../lib/index.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/axios/index.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../lib/api/base.ts": [
         "../node_modules/axios/index.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/index.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1046,14 +1047,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/dashboard/createhasnextfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/dashboard/createhaspreviousfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../lib/api/videos/dashboard/parsevideo.ts": [
         "../lib/api/base.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1061,6 +1054,19 @@
       ],
       "../lib/api/videos/dashboard/createrefreshfunction.ts": [
         "../lib/api/videos/dashboard/dashboard.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/dashboard/createhasnextfunction.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/dashboard/createnextfunction.ts": [
+        "../lib/api/videos/dashboard/dashboard.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/dashboard/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1083,11 +1089,6 @@
       "../lib/api/videos/dashboard/dashboard.ts": [
         "../lib/api/base.ts",
         "../lib/api/videos/dashboard/parseresponse.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/dashboard/createnextfunction.ts": [
-        "../lib/api/videos/dashboard/dashboard.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1124,14 +1125,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/fresh/createhasnextfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/fresh/createhaspreviousfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../lib/api/videos/fresh/parsevideo.ts": [
         "../lib/api/base.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1139,6 +1132,19 @@
       ],
       "../lib/api/videos/fresh/createrefreshfunction.ts": [
         "../lib/api/videos/fresh/fresh.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/fresh/createhasnextfunction.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/fresh/createnextfunction.ts": [
+        "../lib/api/videos/fresh/fresh.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/fresh/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1164,21 +1170,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/fresh/createnextfunction.ts": [
-        "../lib/api/videos/fresh/fresh.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../lib/api/videos/fresh/index.ts": [
         "../lib/api/videos/fresh/fresh.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/search/createhasnextfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/search/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1189,6 +1182,19 @@
       ],
       "../lib/api/videos/search/createrefreshfunction.ts": [
         "../lib/api/videos/search/search.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/search/createhasnextfunction.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/search/createnextfunction.ts": [
+        "../lib/api/videos/search/search.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/search/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1214,21 +1220,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/search/createnextfunction.ts": [
-        "../lib/api/videos/search/search.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../lib/api/videos/search/index.ts": [
         "../lib/api/videos/search/search.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/verified/createhasnextfunction.ts": [
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/api/videos/verified/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1239,6 +1232,19 @@
       ],
       "../lib/api/videos/verified/createrefreshfunction.ts": [
         "../lib/api/videos/verified/verified.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/verified/createhasnextfunction.ts": [
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/verified/createnextfunction.ts": [
+        "../lib/api/videos/verified/verified.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/verified/createhaspreviousfunction.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1264,13 +1270,79 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/verified/createnextfunction.ts": [
+      "../lib/api/videos/verified/index.ts": [
         "../lib/api/videos/verified/verified.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../lib/api/videos/verified/index.ts": [
-        "../lib/api/videos/verified/verified.ts",
+      "../lib/api/videos/index.ts": [
+        "../lib/api/videos/best/index.ts",
+        "../lib/api/videos/dashboard/index.ts",
+        "../lib/api/videos/details/index.ts",
+        "../lib/api/videos/fresh/index.ts",
+        "../lib/api/videos/search/index.ts",
+        "../lib/api/videos/verified/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/index.ts": [
+        "../lib/api/videos/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/xvideos.ts": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/index.ts": [
+        "../lib/xvideos.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../index.ts": [
+        "../lib/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../teste.ts": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/xvideos.spec.js": [
+        "../lib/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/best/best.spec.js": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/dashboard/dashboard.spec.js": [
+        "../lib/api/videos/dashboard/dashboard.ts",
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/details/details.spec.js": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/fresh/fresh.spec.js": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/search/search.spec.js": [
+        "../lib/api/index.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../lib/api/videos/verified/verified.spec.js": [
+        "../lib/api/index.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1407,15 +1479,6 @@
       "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../lib/xvideos.ts": [
-        "../lib/api/index.ts"
-      ],
-      "../lib/index.ts": [
-        "../lib/xvideos.ts"
-      ],
-      "../index.ts": [
-        "../lib/index.ts"
       ],
       "../node_modules/axios/index.d.ts": [
         "../node_modules/@types/node/util.d.ts",
@@ -1730,6 +1793,18 @@
       "../lib/api/videos/verified/index.ts": [
         "../lib/api/videos/verified/verified.ts"
       ],
+      "../lib/api/index.ts": [
+        "../lib/api/videos/index.ts"
+      ],
+      "../lib/xvideos.ts": [
+        "../lib/api/index.ts"
+      ],
+      "../lib/index.ts": [
+        "../lib/xvideos.ts"
+      ],
+      "../index.ts": [
+        "../lib/index.ts"
+      ],
       "../node_modules/@types/eslint-visitor-keys/index.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
@@ -1771,13 +1846,8 @@
       "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
       "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
-      "../lib/api/index.ts",
-      "../lib/xvideos.ts",
-      "../lib/index.ts",
-      "../index.ts",
       "../node_modules/axios/index.d.ts",
       "../lib/api/base.ts",
-      "../lib/api/videos/index.ts",
       "../node_modules/@types/node/globals.d.ts",
       "../node_modules/@types/node/assert.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
@@ -1823,58 +1893,71 @@
       "../node_modules/@types/node/ts3.2/globals.d.ts",
       "../node_modules/@types/node/ts3.2/index.d.ts",
       "../node_modules/@types/cheerio/index.d.ts",
-      "../lib/api/videos/best/createhasnextfunction.ts",
-      "../lib/api/videos/best/createhaspreviousfunction.ts",
-      "../node_modules/@types/puppeteer/errors.d.ts",
-      "../node_modules/@types/puppeteer/devicedescriptors.d.ts",
-      "../node_modules/@types/puppeteer/index.d.ts",
-      "../lib/api/videos/search/createhasnextfunction.ts",
-      "../lib/api/videos/search/parsevideo.ts",
-      "../lib/api/videos/verified/createhasnextfunction.ts",
-      "../lib/api/videos/verified/createhaspreviousfunction.ts",
-      "../lib/api/videos/verified/parsevideo.ts",
-      "../lib/api/videos/verified/createrefreshfunction.ts",
-      "../lib/api/videos/verified/createpreviousfunction.ts",
-      "../lib/api/videos/verified/parseresponse.ts",
-      "../lib/api/videos/verified/verified.ts",
-      "../lib/api/videos/verified/createnextfunction.ts",
-      "../lib/api/videos/verified/index.ts",
-      "../node_modules/@types/eslint-visitor-keys/index.d.ts",
-      "../node_modules/@types/json-schema/index.d.ts",
       "../lib/api/videos/best/parsevideo.ts",
+      "../lib/api/videos/best/createrefreshfunction.ts",
+      "../lib/api/videos/best/createhasnextfunction.ts",
+      "../lib/api/videos/best/createnextfunction.ts",
+      "../lib/api/videos/best/createhaspreviousfunction.ts",
+      "../lib/api/videos/best/createpreviousfunction.ts",
       "../lib/api/videos/best/parseresponse.ts",
       "../lib/api/videos/best/best.ts",
       "../lib/api/videos/best/index.ts",
-      "../lib/api/videos/best/createnextfunction.ts",
-      "../lib/api/videos/best/createrefreshfunction.ts",
-      "../lib/api/videos/best/createpreviousfunction.ts",
+      "../lib/api/videos/dashboard/parsevideo.ts",
+      "../lib/api/videos/dashboard/createrefreshfunction.ts",
       "../lib/api/videos/dashboard/createhasnextfunction.ts",
+      "../lib/api/videos/dashboard/createnextfunction.ts",
+      "../lib/api/videos/dashboard/createhaspreviousfunction.ts",
+      "../lib/api/videos/dashboard/createpreviousfunction.ts",
       "../lib/api/videos/dashboard/parseresponse.ts",
       "../lib/api/videos/dashboard/dashboard.ts",
       "../lib/api/videos/dashboard/index.ts",
-      "../lib/api/videos/dashboard/createnextfunction.ts",
-      "../lib/api/videos/dashboard/createpreviousfunction.ts",
-      "../lib/api/videos/dashboard/createrefreshfunction.ts",
-      "../lib/api/videos/dashboard/createhaspreviousfunction.ts",
-      "../lib/api/videos/dashboard/parsevideo.ts",
+      "../node_modules/@types/puppeteer/errors.d.ts",
+      "../node_modules/@types/puppeteer/devicedescriptors.d.ts",
+      "../node_modules/@types/puppeteer/index.d.ts",
       "../lib/api/videos/details/details.ts",
       "../lib/api/videos/details/index.ts",
+      "../lib/api/videos/fresh/parsevideo.ts",
+      "../lib/api/videos/fresh/createrefreshfunction.ts",
       "../lib/api/videos/fresh/createhasnextfunction.ts",
+      "../lib/api/videos/fresh/createnextfunction.ts",
+      "../lib/api/videos/fresh/createhaspreviousfunction.ts",
+      "../lib/api/videos/fresh/createpreviousfunction.ts",
       "../lib/api/videos/fresh/parseresponse.ts",
       "../lib/api/videos/fresh/fresh.ts",
       "../lib/api/videos/fresh/index.ts",
-      "../lib/api/videos/fresh/createnextfunction.ts",
-      "../lib/api/videos/fresh/createpreviousfunction.ts",
-      "../lib/api/videos/fresh/createrefreshfunction.ts",
-      "../lib/api/videos/fresh/createhaspreviousfunction.ts",
-      "../lib/api/videos/fresh/parsevideo.ts",
+      "../lib/api/videos/search/parsevideo.ts",
+      "../lib/api/videos/search/createrefreshfunction.ts",
+      "../lib/api/videos/search/createhasnextfunction.ts",
+      "../lib/api/videos/search/createnextfunction.ts",
       "../lib/api/videos/search/createhaspreviousfunction.ts",
+      "../lib/api/videos/search/createpreviousfunction.ts",
       "../lib/api/videos/search/parseresponse.ts",
       "../lib/api/videos/search/search.ts",
       "../lib/api/videos/search/index.ts",
-      "../lib/api/videos/search/createnextfunction.ts",
-      "../lib/api/videos/search/createpreviousfunction.ts",
-      "../lib/api/videos/search/createrefreshfunction.ts"
+      "../lib/api/videos/verified/createrefreshfunction.ts",
+      "../lib/api/videos/verified/createhasnextfunction.ts",
+      "../lib/api/videos/verified/createnextfunction.ts",
+      "../lib/api/videos/verified/createhaspreviousfunction.ts",
+      "../lib/api/videos/verified/createpreviousfunction.ts",
+      "../lib/api/videos/verified/parseresponse.ts",
+      "../lib/api/videos/verified/verified.ts",
+      "../lib/api/videos/verified/index.ts",
+      "../lib/api/videos/index.ts",
+      "../lib/api/index.ts",
+      "../lib/xvideos.ts",
+      "../lib/index.ts",
+      "../index.ts",
+      "../teste.ts",
+      "../lib/xvideos.spec.js",
+      "../lib/api/videos/best/best.spec.js",
+      "../lib/api/videos/dashboard/dashboard.spec.js",
+      "../lib/api/videos/details/details.spec.js",
+      "../lib/api/videos/fresh/fresh.spec.js",
+      "../lib/api/videos/search/search.spec.js",
+      "../lib/api/videos/verified/verified.spec.js",
+      "../node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "../node_modules/@types/json-schema/index.d.ts",
+      "../lib/api/videos/verified/parsevideo.ts"
     ]
   },
   "version": "3.6.3"

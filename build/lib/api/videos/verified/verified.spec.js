@@ -41,7 +41,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var verified_1 = __importDefault(require("./verified"));
+var api_1 = __importDefault(require("../../../api"));
+var videos = api_1.default.videos;
 before(function () {
     chai_1.should();
 });
@@ -50,7 +51,7 @@ describe('api/videos/verified', function () {
         var list, previous, next;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, verified_1.default({ page: 2 })];
+                case 0: return [4 /*yield*/, videos.verified({ page: 2 })];
                 case 1:
                     list = _a.sent();
                     list.should.be.an('object');
@@ -165,7 +166,7 @@ describe('api/videos/verified', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, verified_1.default({ page: Number.MAX_SAFE_INTEGER + 1 })];
+                    return [4 /*yield*/, videos.verified({ page: Number.MAX_SAFE_INTEGER + 1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -186,7 +187,7 @@ describe('api/videos/verified', function () {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, 3, 4]);
-                    return [4 /*yield*/, verified_1.default({ page: -1 })];
+                    return [4 /*yield*/, videos.verified({ page: -1 })];
                 case 1:
                     _a.sent();
                     return [3 /*break*/, 4];
@@ -202,3 +203,4 @@ describe('api/videos/verified', function () {
         });
     }); }).timeout(10000);
 });
+//# sourceMappingURL=verified.spec.js.map
