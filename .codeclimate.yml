@@ -12,3 +12,8 @@ engines:
 ratings:
   paths:
   - '*.js'
+exclude_patterns:
+- 'build/'
+- '**/node_modules/'
+- '**/tests/'
+- '**/*.d.ts'
