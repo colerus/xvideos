@@ -1,10 +1,7 @@
 import ResponseApi from "../videos/response/responseApi";
-export declare const createPreviousFunction: (pagination: {
-    page: number;
-    pages: number[];
-}, callback: Function) => () => Promise<ResponseApi>;
-export declare const createPreviousFunctionWithKeyword: (key: string, pagination: {
+declare const createPreviousFunction: (pagination: {
     page: number;
     pages?: number[] | undefined;
-}, callback: Function) => () => Promise<ResponseApi>;
+}, callback: Function, key?: string | undefined) => () => Promise<ResponseApi>;
+export default createPreviousFunction;
 //# sourceMappingURL=createPreviousFunction.d.ts.map

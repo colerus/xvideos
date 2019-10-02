@@ -57,10 +57,10 @@ var search = function (input) { return __awaiter(void 0, void 0, void 0, functio
                 }
                 url = "" + PATH + input.key + "&p=" + input.page;
                 request = base_1.default.createRequest();
-                _a = parseResponses_1.parseResponseWithKeyword;
-                _b = [input.key, input.page];
+                _a = parseResponses_1.parseResponse;
+                _b = [input.page];
                 return [4 /*yield*/, request.get(url)];
-            case 1: return [2 /*return*/, _a.apply(void 0, _b.concat([_c.sent(), search]))];
+            case 1: return [2 /*return*/, _a.apply(void 0, _b.concat([_c.sent(), search, input.key]))];
         }
     });
 }); };

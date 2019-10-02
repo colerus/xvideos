@@ -1,19 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var nextFunction = function (currentPage, callback) { return function () {
-    var next = currentPage + 1;
-    return callback({ page: next });
-}; };
-exports.createNextFunction = function (pagination, callback) {
-    var page = pagination.page;
-    return nextFunction(page, callback);
-};
-var nextFunctionWithKeyword = function (keyword, currentPage, callback) { return function () {
+var nextFunction = function (currentPage, callback, keyword) { return function () {
     var next = currentPage + 1;
     return callback({ key: keyword, page: next });
 }; };
-exports.createNextFunctionWithKeyword = function (keyword, pagination, callback) {
+var createNextFunction = function (pagination, callback, keyword) {
     var page = pagination.page;
-    return nextFunctionWithKeyword(keyword, page, callback);
+    return nextFunction(page, callback, keyword);
 };
+exports.default = createNextFunction;
 //# sourceMappingURL=createNextFunction.js.map

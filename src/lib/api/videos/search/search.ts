@@ -1,6 +1,6 @@
 import base from '../../base';
 import ResponseApi from '../response/responseApi';
-import { parseResponseWithKeyword } from '../../utils/parseResponses';
+import { parseResponse } from '../../utils/parseResponses';
 
 const PATH = '/?k=';
 
@@ -16,7 +16,7 @@ const search = async (input: { key: string; page?: number }): Promise<ResponseAp
   const url = `${PATH}${input.key}&p=${input.page}`;
   const request = base.createRequest();
 
-  return parseResponseWithKeyword(input.key, input.page, await request.get(url), search);
+  return parseResponse(input.page, await request.get(url), search, input.key);
 };
 
 export default search;

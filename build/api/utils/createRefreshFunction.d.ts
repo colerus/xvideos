@@ -1,10 +1,7 @@
 import ResponseApi from "../videos/response/responseApi";
-export declare const createRefreshFunction: (pagination: {
-    page: number;
-    pages: number[];
-}, callback: Function) => () => Promise<ResponseApi>;
-export declare const createRefreshFunctionWithKeyword: (keyword: string, pagination: {
+declare const createRefreshFunction: (pagination: {
     page: number;
     pages?: number[] | undefined;
-}, callback: Function) => () => Promise<ResponseApi>;
+}, callback: Function, keyword?: string | undefined) => () => Promise<ResponseApi>;
+export default createRefreshFunction;
 //# sourceMappingURL=createRefreshFunction.d.ts.map
