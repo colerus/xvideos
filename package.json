@@ -1,5 +1,5 @@
 {
-  "name": "@colerus/xvideos",
+  "name": "xvideos-lib",
   "description": "xvideos.com api implementation and update.",
   "version": "1.1.2",
   "main": "./build/index.js",

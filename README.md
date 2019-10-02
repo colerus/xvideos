@@ -57,6 +57,30 @@ const detail = await xvideos.videos.details(fresh[0]); /**
 ```
 
 ### API
+* Retrieve [search videos](https://www.xvideos.com/?k=)
+  ```javascript
+  const searchList = await xvideos.videos.dashboard({ key: "teen", page: 1 });
+  ```
+  * Is there a next page? 
+    ```javascript
+    console.log(searchList.hasNext()); // true or false
+    ```
+  * Is there a previous page? 
+    ```javascript
+    console.log(searchList.hasPrevious()); // true or false
+    ```
+  * Refresh page videos
+    ```javascript
+    const refreshedVideos = await searchList.refresh();
+    ```
+  * Retrieve next deshboard page videos 
+    ```javascript
+    const nextVideos = await searchList.next();
+    ```
+  * Retrieve previous deshboard page videos
+    ```javascript
+    const previousVideos = await searchList.previous();
+    ```
 * Retrieve [dashboard videos](https://www.xvideos.com)
   ```javascript
   const dashboardList = await xvideos.videos.dashboard({ page: 1 });

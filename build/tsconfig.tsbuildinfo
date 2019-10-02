@@ -1,127 +1,127 @@
 {
   "program": {
     "fileInfos": {
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts": {
+      "../node_modules/typescript/lib/lib.d.ts": {
         "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
         "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
         "version": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1",
         "signature": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
         "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
         "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
         "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
         "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
         "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.d.ts": {
         "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
         "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": {
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
         "version": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f",
         "signature": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
         "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
         "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts": {
+      "../node_modules/typescript/lib/lib.scripthost.d.ts": {
         "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
         "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "4ab19088d508f9e62bfc61c157e8a65b2afaefa251ecca315e7d20b5b97b256f",
         "signature": "4ab19088d508f9e62bfc61c157e8a65b2afaefa251ecca315e7d20b5b97b256f"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
         "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
         "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
         "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
         "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
         "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
         "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
         "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
         "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
         "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
         "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
         "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
         "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
         "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
         "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
         "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
         "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
         "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
         "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
         "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
         "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
         "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
         "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
         "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
         "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
         "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
         "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
         "version": "93c0c9ae60e46e4d1389dd33936bbfa24d9c66ef83a1569fcbb67a46432405e0",
         "signature": "93c0c9ae60e46e4d1389dd33936bbfa24d9c66ef83a1569fcbb67a46432405e0"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
         "version": "16c06e535d8e03be7c35735f9ce92c9e591cfea50cdcd0ac1353a0b85c60ab10",
         "signature": "16c06e535d8e03be7c35735f9ce92c9e591cfea50cdcd0ac1353a0b85c60ab10"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
         "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
         "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
         "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
         "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
         "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
         "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
         "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
         "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
       },
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
@@ -314,43 +314,43 @@
         "signature": "5b92b2f6901b4e84e6196ac4d8574ecba2ccd956f7bdf80800f384e7b4e15d38"
       },
       "../src/lib/api/videos/response/video.ts": {
-        "version": "0b9f99739abe8efa256acba8e7b52cc42358143db45454ac3b8ccfef632c6ae6",
+        "version": "4c05a2afa4b4cdc4f8bf8d4c1ca716073fa4f279fe8941a728b745f17fa8931f",
         "signature": "9b770da026bd8104626c3946e36fa0d5808cb0d2d0abe48fcc399cd31dbd843d"
       },
       "../src/lib/api/videos/best/parsevideo.ts": {
-        "version": "885742a6b854956ccae9f365de0baa5d50f85f255e0d353bdb37990f13e5f606",
+        "version": "908f5f5b9a108c6a06a8b28cc3665f5b47d68585c13b1c115ee9180f71b01698",
         "signature": "cc914bdaeb5f9cdcc7343851d4dc8c4b38387b86bf37903816691bf549f79a91"
       },
       "../src/lib/api/videos/response/responseapi.ts": {
-        "version": "1270ffe27ad2ea6e040562a7eec812309f0dbbe108567b7dd478b4bd66172f06",
+        "version": "14751364e241129d3e2225cca2908d8b623ed3fab2525457341e8dcf61da9d84",
         "signature": "04eef27bf5fb155d8e7e39c95a2fa136399a7acc0962c1d89c6c1319d513b9c7"
       },
       "../src/lib/api/videos/best/createrefreshfunction.ts": {
-        "version": "47ae91b739c2d7646f18cea6e7aefdfe4bebbba2a73df72885b7518d34c5e131",
+        "version": "83064b944fe10f3adbe93a7b70b15a4191775d1d01913e630ef29c3259fb39e2",
         "signature": "509c298c8069fdb10fbcc6697213aaf65d79fbece148c4565f8c1eaec3af43d1"
       },
       "../src/lib/api/videos/best/createhasnextfunction.ts": {
-        "version": "b1f1b34dc9a760f4344ceb8659745abff95b139ad5309abe333b2727d545ce8e",
+        "version": "1097e18a44f1523780e12f91294563ae0e842158c18440bd302c77510417e099",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../src/lib/api/videos/best/createnextfunction.ts": {
-        "version": "a546bbad37fcfe55140eb4ab574d5b8d7b07febfba9fbf8353646c2409cccefb",
+        "version": "1c48c7e563b4f1f138d9e53df781ffbe1d68ac59f96a4cc065dc9b8bcd94cd3b",
         "signature": "bd75efdc652e05ff02683048a558331db100815765b9633f3e5c9a69ccf97031"
       },
       "../src/lib/api/videos/best/createhaspreviousfunction.ts": {
-        "version": "5f645e7d22218483f2c0225c44f2e6fdcfe07503c1b31c823d93956793192c1d",
+        "version": "6f5f33a620bdcc7d24e3c6c8dbc958e9162a56851f3c545e101611e50b2c5a6f",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../src/lib/api/videos/best/createpreviousfunction.ts": {
-        "version": "7175eeb953205e87842a2e142397935fc9aaba3b3b2977f69d86656504dac08e",
+        "version": "2623c7cb4d028156864055ca0db8aa8129d7aa11530f3e74eb5dd0c1f747d6e6",
         "signature": "8fea95b92b37a65bfa30d7dbb68100af68848edf06ad9ffbaa1f4a89d1b48268"
       },
       "../src/lib/api/videos/best/parseresponse.ts": {
-        "version": "0f8c5fea21c56253fc4f6b1d3e1b26ffe36d24a3be5ee02bb27583ad50fb7aa0",
+        "version": "6c29a3b96b7cadeb32979fe3474fc1775233552e325941a3c5a0bd7241f25a1d",
         "signature": "439186be6d50ca7eb8ab94cc471b8250d9f55062611bde95e505aade6a68f559"
       },
       "../src/lib/api/videos/best/best.ts": {
-        "version": "74f742defb687e25fc98086c5225db2f557aa4a77fc5b9aeb737d4d6f14bdbc7",
+        "version": "94283f20804bbb2326e658416b9fe69513323ce01667467c7191d00a627c229e",
         "signature": "058759e66b5fc00397e9055f2642d293726687d5106f42c588d1a2aedf2decc2"
       },
       "../src/lib/api/videos/best/index.ts": {
@@ -358,35 +358,35 @@
         "signature": "009d28099608b4196009993f2bb99cb63e0d51072c8807f56ef8b50bf815aad6"
       },
       "../src/lib/api/videos/dashboard/parsevideo.ts": {
-        "version": "885742a6b854956ccae9f365de0baa5d50f85f255e0d353bdb37990f13e5f606",
+        "version": "908f5f5b9a108c6a06a8b28cc3665f5b47d68585c13b1c115ee9180f71b01698",
         "signature": "cc914bdaeb5f9cdcc7343851d4dc8c4b38387b86bf37903816691bf549f79a91"
       },
       "../src/lib/api/videos/dashboard/createrefreshfunction.ts": {
-        "version": "ab197bbafccd3fd044e59a21e9d673baaf31e541317b69033284aac1159359cf",
+        "version": "bcfe1fdf2760222615a4a8c752a5dd738471e234dfbafeda7a84e5e22f31f46f",
         "signature": "509c298c8069fdb10fbcc6697213aaf65d79fbece148c4565f8c1eaec3af43d1"
       },
       "../src/lib/api/videos/dashboard/createhasnextfunction.ts": {
-        "version": "71f223ebb724a6bffdf70d861d5d5c09814de9b833e3d826dd23bc6cbe0f1598",
+        "version": "e0f59695f5ff815ef074540ca4fa30a8aa5d7a83a20dd6880a09594d093a5a00",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../src/lib/api/videos/dashboard/createnextfunction.ts": {
-        "version": "88fdae043c1926f78e81b43cb4961056aedcf27d48c456eb0bd8905f28124cdf",
+        "version": "34af9edec663ab3c2d8b6eb2021389965754e76db48825b28dd3f1d4bb744713",
         "signature": "c30c038ac5051e034037ff4439775fd41d3043efe1b2c1a127e9cc2d0aa5007c"
       },
       "../src/lib/api/videos/dashboard/createhaspreviousfunction.ts": {
-        "version": "bd4bee11fa4f77d43b69f1cae20ae2363ec15d8aa51aaa16579f000d2316ed20",
+        "version": "04e99555a9eb78f6dcd4058da2a109727e233c20551e4547c55a0d44fb7e3e60",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../src/lib/api/videos/dashboard/createpreviousfunction.ts": {
-        "version": "15a2feaa392b209ba5231bc97d4f5b7d1a83e1b82bdb0772b86ef7a6a9c5f465",
+        "version": "d0112ea93dd2f4f41c7b56570746fbb19e8d05b8b417b6e243e2df58058fa94d",
         "signature": "fdf30da347ae8544f4af6e5384681952ba6e718c9af1c6e386ba4881c82c1fa4"
       },
       "../src/lib/api/videos/dashboard/parseresponse.ts": {
-        "version": "7d1d5388019de94a2d6b460c74899d19c9707537fb4db0897ae0c05aa8938c90",
+        "version": "4482823b8651ecf956f92a2131dba29026bd61eb20709c7071d1361c24f1febe",
         "signature": "439186be6d50ca7eb8ab94cc471b8250d9f55062611bde95e505aade6a68f559"
       },
       "../src/lib/api/videos/dashboard/dashboard.ts": {
-        "version": "86179b95532c990966a707d9eb120f51d119f3a89a81c36a703b3d49e60d247e",
+        "version": "bdd9d9bdcc9d93ea93d8efdf1ddf6dbdd7c1116eac320682e09dda247246ca63",
         "signature": "4e17cc68f37e2a3f976c6802f80ca47d356c72e0aa383a8d43c49c5f12eb0025"
       },
       "../src/lib/api/videos/dashboard/index.ts": {
@@ -406,11 +406,11 @@
         "signature": "fc3e29ded3bab77747b9caf13a22771af46a123de048bae886956c2884649dea"
       },
       "../src/lib/api/videos/response/videodetails.ts": {
-        "version": "434e55edb1a0e9e5588226af0cfdad9d6aa4866ce5a2ecaea60d59e18d2f1809",
+        "version": "eb787b2d4396b6265d7a8b3174de7cd32e55e3da5eb30ec9e460cf55b7058d0d",
         "signature": "1e0f1e7731f859fedf2a7e0e0c37d6836cc2a71554f8dff7600540104cf3d65a"
       },
       "../src/lib/api/videos/details/details.ts": {
-        "version": "b08b931897740506c25173301a12c1c277fd3ef043d75839305ffe28540d89b8",
+        "version": "6793edf604c6c8ad8b83bce1bb6d8fc1c9a64d3c424c868850737c88e4f961fe",
         "signature": "123bd785d702932caaa34fc2035c8d9ac792810edb33820a0f84608366d52a4b"
       },
       "../src/lib/api/videos/details/index.ts": {
@@ -418,35 +418,35 @@
         "signature": "796a9af0a761ebfdac43a2c7d2f7f4cf25871147478b497eaedcbf3f082a19d2"
       },
       "../src/lib/api/videos/fresh/parsevideo.ts": {
-        "version": "401685fc889c323dba1f326ab5015c3d3c28e686f60f4292f1dd3152f758ad74",
+        "version": "3d93a91d6953c8dddd915aa075687b5c73d0ee72b3f59e32963e0c2ac7f76e4e",
         "signature": "cc914bdaeb5f9cdcc7343851d4dc8c4b38387b86bf37903816691bf549f79a91"
       },
       "../src/lib/api/videos/fresh/createrefreshfunction.ts": {
-        "version": "aa5e6231c55e1b04776735a6143f6efc6a1c7da17b7eebc2c586c8ec8ae99ae8",
+        "version": "ca5673bd9ab75d901541dd427450712f39a7d42a55bd077962be814c65026a88",
         "signature": "c3459fad0d91d4592c2a46b987658d9e78251617e640a571ea5eeff1446cb456"
       },
       "../src/lib/api/videos/fresh/createhasnextfunction.ts": {
-        "version": "66e33dc604f54d7e1d946035b47088cdf036c3c408bfa864b3f52fd292acf056",
+        "version": "8cd8009b7de5062435c98597044f64ae78fac1f3e1ee8e3b15a7d9f470bd2bfb",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../src/lib/api/videos/fresh/createnextfunction.ts": {
-        "version": "e4a669b65a82dd6ff51d3ab356b53b044a0722258511b5beadcb975b9b0ae23f",
+        "version": "bb992f49d309a459a0a09a49771c0c4a11f0f3436ecb6b16a8d45df906eb168f",
         "signature": "b6f1f3b14efe5e8268e762f79086292a7735760868c0b554ec93ad12d7e23e37"
       },
       "../src/lib/api/videos/fresh/createhaspreviousfunction.ts": {
-        "version": "bd4bee11fa4f77d43b69f1cae20ae2363ec15d8aa51aaa16579f000d2316ed20",
+        "version": "04e99555a9eb78f6dcd4058da2a109727e233c20551e4547c55a0d44fb7e3e60",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../src/lib/api/videos/fresh/createpreviousfunction.ts": {
-        "version": "0542bea51cecef805b8f01ff9cda4a31ee798447f414e367fa9f33f53399c22e",
+        "version": "4dfeffb1801aa37972600ea602963119c7c4ae39394623b11bbe963b98c97602",
         "signature": "20c71d41afdfc13bc39d100d0eee1b02951fadcee0fb6f260c92b5331b2ee338"
       },
       "../src/lib/api/videos/fresh/parseresponse.ts": {
-        "version": "dbaa6a90f1f93c43bf3c982f2492e769b50180c94fe069c274a8385bdaabb9d3",
+        "version": "70f045cc53f9e132067cb65dd27b52bee5e83f2c9c29b6641cad2030d92344a6",
         "signature": "439186be6d50ca7eb8ab94cc471b8250d9f55062611bde95e505aade6a68f559"
       },
       "../src/lib/api/videos/fresh/fresh.ts": {
-        "version": "0a22e074915127e9ad241b1e57ffb15a774ea0a147b9317b19ed72ebb3fb7368",
+        "version": "d42c6ed7a865260211635f20fbb5ce0cb6f05f6796505758f3cfe0b1197c45b3",
         "signature": "01d775fb8e89d815e4a0b9728ca0959f482200816825f90115989c5a6a59f17f"
       },
       "../src/lib/api/videos/fresh/index.ts": {
@@ -454,35 +454,35 @@
         "signature": "6df0320e84ee9188b00011f265fd6952fefe52cd06ff4047c081ce0a814116a8"
       },
       "../src/lib/api/videos/search/parsevideo.ts": {
-        "version": "885742a6b854956ccae9f365de0baa5d50f85f255e0d353bdb37990f13e5f606",
+        "version": "908f5f5b9a108c6a06a8b28cc3665f5b47d68585c13b1c115ee9180f71b01698",
         "signature": "cc914bdaeb5f9cdcc7343851d4dc8c4b38387b86bf37903816691bf549f79a91"
       },
       "../src/lib/api/videos/search/createrefreshfunction.ts": {
-        "version": "7a79b1c826070f3d025c4c6cb181279af46c381fe49d6e78273fe403b97aac62",
+        "version": "5f8ce61f1391ff5f105afdb232f99ebc901bfc9942989d4b540723277ab1a224",
         "signature": "d92d34528fa46ed9a1d09817831d5aa9b6e8cda7aa2c08d9b88c71ddf1305734"
       },
       "../src/lib/api/videos/search/createhasnextfunction.ts": {
-        "version": "66e33dc604f54d7e1d946035b47088cdf036c3c408bfa864b3f52fd292acf056",
+        "version": "8cd8009b7de5062435c98597044f64ae78fac1f3e1ee8e3b15a7d9f470bd2bfb",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../src/lib/api/videos/search/createnextfunction.ts": {
-        "version": "3d4b273790d7f55cb66abfdab90d10307843eef14846b193a290af46d10bc927",
+        "version": "55a70fceef23387a3676642afa6bc91db8f8122868888e8aec5bfa71b0dfe488",
         "signature": "df99b43b2793ff8702a7548c70a64011b067b3e30448bd6e6ccbcdc7ed5f7c3c"
       },
       "../src/lib/api/videos/search/createhaspreviousfunction.ts": {
-        "version": "bd4bee11fa4f77d43b69f1cae20ae2363ec15d8aa51aaa16579f000d2316ed20",
+        "version": "04e99555a9eb78f6dcd4058da2a109727e233c20551e4547c55a0d44fb7e3e60",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../src/lib/api/videos/search/createpreviousfunction.ts": {
-        "version": "6fb3281d2e7bf3ace56e9a7f6eebba1ad5281e66c9e86f33a184f50099cc13ba",
+        "version": "c3370d6fe031bd16448019859875f845f242b0b7ea50b6284b666ad2ef2ebeca",
         "signature": "362b8015d77b2a5567e715c8d402d3bbb74f48b14b0278f492df0310357d3285"
       },
       "../src/lib/api/videos/search/parseresponse.ts": {
-        "version": "e728ae01f5d64567df1e79db51f9f345d329a081be3d5416727617450f11b77e",
+        "version": "14fb5b486eb42db923862c8b911506e66dc4557e95330b9f4fed90c489564a10",
         "signature": "360f9d3e38820bbd06c1e3fc7ede5c99ea7e3869e8d27c3df68afdd54028d669"
       },
       "../src/lib/api/videos/search/search.ts": {
-        "version": "25f159b1bba554e088608a8a3c986d1a024877deae19d9157ebfe38b941249b1",
+        "version": "45c7f16a2882e3c97dae02d8d8c172dfa7f8883e2aaa5e941b5ab4190647295a",
         "signature": "88841c451dedbbef392547662187204f128e54c6dbcee6146b564d74ddda1323"
       },
       "../src/lib/api/videos/search/index.ts": {
@@ -490,39 +490,39 @@
         "signature": "b143975e13657f29cab0d15898b0cb1fcb5b0f436f2cd8e1b1171a4d56b4f08c"
       },
       "../src/lib/api/videos/verified/parsevideo.ts": {
-        "version": "dbca1201dc9cdc1b19650ee9237671eb0ca5bc1986fbafeb06c016fec7dd2621",
+        "version": "938638337bbc3efe126d5c3cb41ed52fdf5908d668aa5db4517091199fed34cc",
         "signature": "cc914bdaeb5f9cdcc7343851d4dc8c4b38387b86bf37903816691bf549f79a91"
       },
       "../src/lib/api/videos/verified/createrefreshfunction.ts": {
-        "version": "e438616e56377ad3386bbee1bf93a882b7e9009a7b091c4e208abd6921f34fec",
+        "version": "0a6a19d1e30333efe76b6f3ae9b757fb0b11be83826c698b908104ee036186af",
         "signature": "c3459fad0d91d4592c2a46b987658d9e78251617e640a571ea5eeff1446cb456"
       },
       "../src/lib/api/videos/verified/createhasnextfunction.ts": {
-        "version": "66e33dc604f54d7e1d946035b47088cdf036c3c408bfa864b3f52fd292acf056",
+        "version": "8cd8009b7de5062435c98597044f64ae78fac1f3e1ee8e3b15a7d9f470bd2bfb",
         "signature": "d1c363c2b2c95252055819b1acbbc8939cb3af69983b62e76a497bb76466d3f5"
       },
       "../src/lib/api/videos/verified/createnextfunction.ts": {
-        "version": "5553d78b0e85e8664a3a96353950978cd925ad24fd4712fb76a578de4cb3793a",
+        "version": "c42718fb9aa4bc5479ceabe1c4a0a1fb91efebbeb984ef5bdce64e8a5c62df68",
         "signature": "b6f1f3b14efe5e8268e762f79086292a7735760868c0b554ec93ad12d7e23e37"
       },
       "../src/lib/api/videos/verified/createhaspreviousfunction.ts": {
-        "version": "bd4bee11fa4f77d43b69f1cae20ae2363ec15d8aa51aaa16579f000d2316ed20",
+        "version": "04e99555a9eb78f6dcd4058da2a109727e233c20551e4547c55a0d44fb7e3e60",
         "signature": "e3ad7dbb7e5b073548c51764e53109bdea5c517db6eaeb953662d2a9c996ade8"
       },
       "../src/lib/api/videos/verified/createpreviousfunction.ts": {
-        "version": "f6e7f697e6de7fb4ed7cae8dc3cc580f7efe4fc9f4ff148646b4de3a680972ed",
+        "version": "e5ee9e76e2983786d7087eecf44c4f1b35fe9599a22eef2eaaa8dea961266bea",
         "signature": "20c71d41afdfc13bc39d100d0eee1b02951fadcee0fb6f260c92b5331b2ee338"
       },
       "../src/lib/api/videos/verified/parseresponse.ts": {
-        "version": "c9acc530c9019d267fdda5e4dff743dded383432be2f12ffc8acc6a713bf10b2",
+        "version": "ba9da7eddf459980ebbde6b34b8b89c95b779ba87d3a94d3d977ca4f3512b05e",
         "signature": "439186be6d50ca7eb8ab94cc471b8250d9f55062611bde95e505aade6a68f559"
       },
       "../src/lib/api/videos/verified/verified.ts": {
-        "version": "39b7eab4a918eba529cb676d334d939674cc4323b5ec94392e4cad08e8a1f5d2",
+        "version": "2a34d0dd9f85bdfc49dba8ad968eec9bd705c0a10c2cc03b8d7020ea4d9d0b50",
         "signature": "57385bc4ae769e0a8585d67a1e948314a689a1377f45bb75ee9f3bc83e16bb1f"
       },
       "../src/lib/api/videos/verified/index.ts": {
-        "version": "7b2d576b733f65cd26496210e26ade9ef6a631383af29e232706d3032d877fab",
+        "version": "8e504f97b261b5ac29d990ecb39bdddfb2ace4b02cba465563e88fdd514aae0a",
         "signature": "8e504f97b261b5ac29d990ecb39bdddfb2ace4b02cba465563e88fdd514aae0a"
       },
       "../src/lib/api/videos/index.ts": {
@@ -576,127 +576,127 @@
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts": [
+      "../node_modules/typescript/lib/lib.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts": [
+      "../node_modules/typescript/lib/lib.es5.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts": [
+      "../node_modules/typescript/lib/lib.es2016.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": [
+      "../node_modules/typescript/lib/lib.dom.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts": [
+      "../node_modules/typescript/lib/lib.scripthost.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1342,127 +1342,127 @@
       ]
     },
     "exportedModulesMap": {
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts": [
+      "../node_modules/typescript/lib/lib.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts": [
+      "../node_modules/typescript/lib/lib.es5.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts": [
+      "../node_modules/typescript/lib/lib.es2016.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": [
+      "../node_modules/typescript/lib/lib.dom.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts": [
+      "../node_modules/typescript/lib/lib.scripthost.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1898,37 +1898,37 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "../../../users/iurin/appdata/roaming/npm/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts",
       "../node_modules/axios/index.d.ts",
       "../src/lib/api/base.ts",
       "../node_modules/@types/node/globals.d.ts",
@@ -2008,6 +2008,7 @@
       "../src/lib/api/videos/fresh/createnextfunction.ts",
       "../src/lib/api/videos/fresh/createhaspreviousfunction.ts",
       "../src/lib/api/videos/fresh/createpreviousfunction.ts",
+      "../src/lib/api/videos/fresh/parseresponse.ts",
       "../src/lib/api/videos/fresh/fresh.ts",
       "../src/lib/api/videos/fresh/index.ts",
       "../src/lib/api/videos/search/parsevideo.ts",
@@ -2033,8 +2034,7 @@
       "../src/lib/xvideos.ts",
       "../src/lib/index.ts",
       "../node_modules/@types/eslint-visitor-keys/index.d.ts",
-      "../node_modules/@types/json-schema/index.d.ts",
-      "../src/lib/api/videos/fresh/parseresponse.ts"
+      "../node_modules/@types/json-schema/index.d.ts"
     ]
   },
   "version": "3.6.3"

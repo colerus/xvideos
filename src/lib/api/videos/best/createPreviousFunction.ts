@@ -1,5 +1,6 @@
-import { best } from "../../videos";
+
 import ResponseApi from "../response/responseApi";
+import { best } from "..";
 
 const previousFunction = (currentPage: number) => (): Promise<ResponseApi> => {
   const previous = currentPage - 1;
