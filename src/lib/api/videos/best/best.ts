@@ -1,6 +1,6 @@
 import base from '../../base';
-import parseResponse from './parseResponse';
 import ResponseApi from '../response/responseApi';
+import { parseResponse } from '../../utils/parseResponses';
 
 const PATH = '/best';
 
@@ -18,7 +18,7 @@ const best = async ( input?: { year?: number; month?: number; page?: number }): 
   const url = `${base.BASE_URL}${PATH}/${input.year}-${input.month.toString().padStart(2,"0")}/${input.page === 0 ? '' : input.page}`;
   const request = base.createRequest({ url });
 
-  return parseResponse(input.page, await request.get(url));
+  return parseResponse(input.page, await request.get(url), best);
 };
 
 export default best;

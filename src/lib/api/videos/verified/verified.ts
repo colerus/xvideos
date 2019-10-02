@@ -1,6 +1,6 @@
 import base from "../../base";
-import parseResponse from './parseResponse';
 import ResponseApi from "../response/responseApi";
+import { parseResponse } from "../../utils/parseResponses";
 
 const PATH = '/verified/videos';
 
@@ -12,7 +12,7 @@ const verified = async ({ page = 1 } = {}): Promise<ResponseApi> => {
   const url = `${PATH}/${page === 0 ? '' : page}`;
   const request = base.createRequest();
 
-  return parseResponse(page, await request.get(url));
+  return parseResponse(page, await request.get(url), verified);
 };
 
 export default verified;

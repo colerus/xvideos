@@ -1,6 +1,6 @@
 import base from '../../base';
-import parseResponse from './parseResponse';
 import ResponseApi from '../response/responseApi';
+import { parseResponse } from '../../utils/parseResponses';
 
 const PATH = '/new';
 
@@ -12,7 +12,7 @@ const fresh = async ({ page = 1 } = {}): Promise<ResponseApi> => {
   const url = `${PATH}/${page}`;
   const request = base.createRequest();
 
-  return parseResponse(page, await request.get(url));
+  return parseResponse(page, await request.get(url), fresh);
 };
 
 export default fresh;
