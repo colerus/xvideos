@@ -1,4 +1,4 @@
-import * as api from "./lib/api";
+import * as api from "./src/lib/api";
 
 const xv = api.default.videos;
 
