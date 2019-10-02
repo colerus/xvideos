@@ -2,6 +2,8 @@ engines:
   eslint:
     enabled: true
     channel: 'eslint-2'
+    config:
+      ignore_warnings: true
     checks:
       import/no-unresolved:
         enabled: false

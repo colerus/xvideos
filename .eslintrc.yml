@@ -16,7 +16,7 @@ rules:
   no-console: off
   no-restricted-globals: off
 globals:
-  process: on
+  process: off
   describe: on
   before: on
   after: on
