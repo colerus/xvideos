@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var base_1 = __importDefault(require("../../base"));
-var parseResponse_1 = __importDefault(require("./parseResponse"));
+var parseResponses_1 = require("../../utils/parseResponses");
 var PATH = '/new';
 var fresh = function (_a) {
     var _b = (_a === void 0 ? {} : _a).page, page = _b === void 0 ? 1 : _b;
@@ -54,10 +54,10 @@ var fresh = function (_a) {
                     }
                     url = PATH + "/" + page;
                     request = base_1.default.createRequest();
-                    _c = parseResponse_1.default;
+                    _c = parseResponses_1.parseResponse;
                     _d = [page];
                     return [4 /*yield*/, request.get(url)];
-                case 1: return [2 /*return*/, _c.apply(void 0, _d.concat([_e.sent()]))];
+                case 1: return [2 /*return*/, _c.apply(void 0, _d.concat([_e.sent(), fresh]))];
             }
         });
     });
