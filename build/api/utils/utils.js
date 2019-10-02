@@ -44,4 +44,13 @@ function getPages($) {
 }
 exports.getPages = getPages;
 ;
+function validatePage(page) {
+    if (!page && page !== 0)
+        return 1;
+    if (!page || page < 1 || page > Number.MAX_SAFE_INTEGER) {
+        throw new Error("Invalid page: " + page);
+    }
+    return page;
+}
+exports.validatePage = validatePage;
 //# sourceMappingURL=utils.js.map

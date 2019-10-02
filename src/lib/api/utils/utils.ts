@@ -41,3 +41,13 @@ export function getPages($: CheerioStatic): number[] {
     .map((_i, page) => Number(page))
     .get();
 };
+
+export function validatePage(page?: number): number {
+  if (!page && page !== 0) return 1;
+  
+  if (!page || page < 1 || page > Number.MAX_SAFE_INTEGER) {
+    throw new Error(`Invalid page: ${page}`);
+  }
+  
+  return page;
+}

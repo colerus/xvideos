@@ -41,6 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var base_1 = __importDefault(require("../../base"));
 var parseResponses_1 = require("../../utils/parseResponses");
+var utils_1 = require("../../utils/utils");
 var PATH = '/new';
 var fresh = function (_a) {
     var _b = (_a === void 0 ? {} : _a).page, page = _b === void 0 ? 1 : _b;
@@ -49,9 +50,7 @@ var fresh = function (_a) {
         return __generator(this, function (_e) {
             switch (_e.label) {
                 case 0:
-                    if (page < 1 || page > Number.MAX_SAFE_INTEGER) {
-                        throw new Error("Invalid page: " + page);
-                    }
+                    page = utils_1.validatePage(page);
                     url = PATH + "/" + page;
                     request = base_1.default.createRequest();
                     _c = parseResponses_1.parseResponse;

@@ -3,4 +3,5 @@ import Video from "../videos/response/video";
 export declare function parseVideo($: CheerioStatic, video: CheerioElement): Video;
 export declare function parseVideos($: CheerioStatic): Video[];
 export declare function getPages($: CheerioStatic): number[];
+export declare function validatePage(page?: number): number;
 //# sourceMappingURL=utils.d.ts.map

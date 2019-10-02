@@ -1,13 +1,12 @@
 import base from '../../base';
 import ResponseApi from '../response/responseApi';
 import { parseResponse } from '../../utils/parseResponses';
+import { validatePage } from '../../utils/utils';
 
 const PATH = '/new';
 
 const fresh = async ({ page = 1 } = {}): Promise<ResponseApi> => {
-  if (page < 1 || page > Number.MAX_SAFE_INTEGER) {
-    throw new Error(`Invalid page: ${page}`);
-  }
+  page = validatePage(page);
   
   const url = `${PATH}/${page}`;
   const request = base.createRequest();
