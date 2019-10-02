@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "eslint": "eslint . --ext .js",
+    "eslint": "eslint . --ext .ts",
     "test": "cross-env NODE_ENV=test mocha --exit build/lib/**/*.spec.js",
     "coverage": "nyc --reporter=html --reporter=lcov npm test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",

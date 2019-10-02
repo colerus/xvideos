@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var videos_1 = require("../../videos");
+var __1 = require("..");
 var previousFunction = function (currentPage) { return function () {
     var previous = currentPage - 1;
-    return videos_1.best({ page: previous });
+    return __1.best({ page: previous });
 }; };
 var createPreviousFunction = function (pagination) {
     var page = pagination.page;
