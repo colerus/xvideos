@@ -1,8 +1,8 @@
-const hasNextFunction = (currentPage: number, pages: number[]) => () => {
+const hasNextFunction = (currentPage: number, pages: number[]): boolean => {
   return currentPage < Math.max(...pages);
 };
 
-const createHasNextFunction = (pagination: { page: number; pages: number[]; }) => {
+const createHasNextFunction = (pagination: { page: number; pages: number[] }): boolean => {
   return hasNextFunction(pagination.page, pagination.pages);
 };
 

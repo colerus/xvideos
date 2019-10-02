@@ -1,9 +1,10 @@
 import base from "../../base";
 import parseResponse from './parseResponse';
+import ResponseApi from "../response/responseApi";
 
 const PATH = '/verified/videos';
 
-const verified = async ({ page = 1 } = {}) => {
+const verified = async ({ page = 1 } = {}): Promise<ResponseApi> => {
   if (page < 1 || page > Number.MAX_SAFE_INTEGER) {
     throw new Error(`Invalid page: ${page}`);
   }

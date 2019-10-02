@@ -1,9 +1,10 @@
 import base from '../../base';
 import parseResponse from './parseResponse';
+import ResponseApi from '../response/responseApi';
 
 const PATH = '/best';
 
-const best = async ( input?: { year?: number, month?: number, page?: number }) => {
+const best = async ( input?: { year?: number; month?: number; page?: number }): Promise<ResponseApi> => {
   if (!input) input = { year: undefined, month: undefined, page: undefined };
   if (!input.year) input.year = new Date().getFullYear();
   

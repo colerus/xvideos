@@ -5,14 +5,16 @@ import createHasNextFunction from './createHasNextFunction';
 import createNextFunction from './createNextFunction';
 import createHasPreviousFunction from './createHasPreviousFunction';
 import createPreviousFunction from './createPreviousFunction';
+import Video from '../response/video';
+import ResponseApi from '../response/responseApi';
 
-const getVideos = ($: CheerioStatic) => {
+const getVideos = ($: CheerioStatic): Video[] => {
   return $('#content > .mozaique > .thumb-block')
     .map((_i, video) => parseVideo($, video))
     .get();
 };
 
-const getPages = ($: CheerioStatic) => {
+const getPages = ($: CheerioStatic): number[] => {
   return $('.pagination > ul > li > a')
     .map((_i, page) => $(page)
       .text())
@@ -21,7 +23,7 @@ const getPages = ($: CheerioStatic) => {
     .get();
 };
 
-const parseResponse = (page: number, { data }: { data: string }) => {
+const parseResponse = (page: number, { data }: { data: string }): ResponseApi => {
   const $ = load(data);
 
   const videos = getVideos($);
@@ -39,7 +41,7 @@ const parseResponse = (page: number, { data }: { data: string }) => {
     next: createNextFunction(pagination),
     hasPrevious: createHasPreviousFunction(pagination),
     previous: createPreviousFunction(pagination),
-  };
+  } as ResponseApi;
 };
 
 export default parseResponse;

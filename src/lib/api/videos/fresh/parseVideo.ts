@@ -1,7 +1,8 @@
 import base from '../../base';
+import Video from '../response/video';
 
 const BASE_URL = base.BASE_URL;
-const parseVideo = ($: CheerioStatic, video: CheerioElement) => {
+const parseVideo = ($: CheerioStatic, video: CheerioElement): Video => {
   const $video = $(video);
 
   const title = $video.find('p:not(".metadata") a').attr('title');
@@ -22,7 +23,7 @@ const parseVideo = ($: CheerioStatic, video: CheerioElement) => {
     duration,
     profile,
     views,
-  };
+  } as Video;
 };
 
 export default parseVideo;

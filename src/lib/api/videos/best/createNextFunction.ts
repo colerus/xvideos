@@ -1,10 +1,11 @@
 import best from "./best";
-const nextFunction = (currentPage: number) => () => {
+import ResponseApi from "../response/responseApi";
+const nextFunction = (currentPage: number) => (): Promise<ResponseApi> => {
   const next = currentPage + 1;
   return best({ page: next });
 };
 
-const createNextFunction = (pagination: { page: number }) => {
+const createNextFunction = (pagination: { page: number }): () => Promise<ResponseApi> => {
   const { page } = pagination;
 
   return nextFunction(page);

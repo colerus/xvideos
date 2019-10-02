@@ -1,7 +1,8 @@
 import { load } from 'cheerio';
 import { launch, Browser } from 'puppeteer';
+import VideoDetails from '../response/videoDetails';
 
-const details = async ({ url }: { url: string }) => {
+const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
   let browser: Browser;
   try {
     browser = await launch();
@@ -39,7 +40,7 @@ const details = async ({ url }: { url: string }) => {
       videoWidth,
       videoHeight,
       files,
-    };
+    } as VideoDetails;
   } catch (err) {
     throw err;
   } finally {

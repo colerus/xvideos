@@ -1,9 +1,10 @@
 import base from '../../base';
 import parseResponse from './parseResponse';
+import ResponseApi from '../response/responseApi';
 
 const PATH = '/?k=';
 
-const search = async (input: { key: string, page?: number }) => {
+const search = async (input: { key: string; page?: number }): Promise<ResponseApi> => {
   if (!input.key) {
     throw new Error('Invalid search keyword.');
   }
