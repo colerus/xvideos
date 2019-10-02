@@ -1,1 +1,1 @@
-export { default } from "./xvideos";
+export { default } from './xvideos';

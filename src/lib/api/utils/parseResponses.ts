@@ -1,11 +1,11 @@
-import ResponseApi from "../videos/response/responseApi";
-import { load } from "cheerio";
-import { parseVideos, getPages } from "./utils";
-import createHasNextFunction from "./createHasNextFunction";
-import createHasPreviousFunction from "./createHasPreviousFunction";
-import createRefreshFunction from "./createRefreshFunction";
-import createNextFunction from "./createNextFunction";
-import createPreviousFunction from "./createPreviousFunction";
+import ResponseApi from '../videos/response/responseApi';
+import { load } from 'cheerio';
+import { parseVideos, getPages } from './utils';
+import createHasNextFunction from './createHasNextFunction';
+import createHasPreviousFunction from './createHasPreviousFunction';
+import createRefreshFunction from './createRefreshFunction';
+import createNextFunction from './createNextFunction';
+import createPreviousFunction from './createPreviousFunction';
 
 export function parseResponse(page: number, { data }: { data: string }, callback: Function, key?: string): ResponseApi {
   const $ = load(data);
@@ -24,7 +24,6 @@ export function parseResponse(page: number, { data }: { data: string }, callback
     hasNext: createHasNextFunction(pagination),
     next: createNextFunction(pagination, callback, key),
     hasPrevious: createHasPreviousFunction(pagination),
-    previous: createPreviousFunction(pagination, callback, key) ,
+    previous: createPreviousFunction(pagination, callback, key),
   } as ResponseApi;
-
 }

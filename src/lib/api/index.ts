@@ -1,4 +1,4 @@
-import * as _videos from "./videos";
+import * as _videos from './videos';
 
 const api = {
   videos: _videos,

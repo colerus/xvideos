@@ -1,5 +1,5 @@
-import Video from "../videos/response/video";
-import base from "../base";
+import Video from '../videos/response/video';
+import base from '../base';
 
 const BASE_URL = base.BASE_URL;
 
@@ -25,7 +25,7 @@ export function parseVideo($: CheerioStatic, video: CheerioElement): Video {
     profile,
     views,
   };
-};
+}
 
 export function parseVideos($: CheerioStatic): Video[] {
   return $('#content > .mozaique > .thumb-block')
@@ -35,19 +35,18 @@ export function parseVideos($: CheerioStatic): Video[] {
 
 export function getPages($: CheerioStatic): number[] {
   return $('.pagination > ul > li > a')
-    .map((_i, page) => $(page)
-      .text())
+    .map((_i, page) => $(page).text())
     .filter((_i, page) => !isNaN(Number(page)))
     .map((_i, page) => Number(page))
     .get();
-};
+}
 
 export function validatePage(page?: number): number {
   if (!page && page !== 0) return 1;
-  
+
   if (!page || page < 1 || page > Number.MAX_SAFE_INTEGER) {
     throw new Error(`Invalid page: ${page}`);
   }
-  
+
   return page;
 }

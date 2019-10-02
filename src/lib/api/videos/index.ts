@@ -1,9 +1,9 @@
-import _best from "./best";
-import _dashboard from "./dashboard";
-import _details from "./details";
-import _fresh from "./fresh";
-import _search from "./search";
-import _verified from "./verified";
+import _best from './best';
+import _dashboard from './dashboard';
+import _details from './details';
+import _fresh from './fresh';
+import _search from './search';
+import _verified from './verified';
 
 export const best = _best;
 export const dashboard = _dashboard;

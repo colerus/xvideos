@@ -1,7 +1,7 @@
-import base from "../../base";
-import ResponseApi from "../response/responseApi";
-import { parseResponse } from "../../utils/parseResponses";
-import { validatePage } from "../../utils/utils";
+import base from '../../base';
+import ResponseApi from '../response/responseApi';
+import { parseResponse } from '../../utils/parseResponses';
+import { validatePage } from '../../utils/utils';
 
 const PATH = '/verified/videos';
 

@@ -7,7 +7,7 @@ const PATH = '/new';
 
 const fresh = async ({ page = 1 } = {}): Promise<ResponseApi> => {
   page = validatePage(page);
-  
+
   const url = `${PATH}/${page}`;
   const request = base.createRequest();
 
