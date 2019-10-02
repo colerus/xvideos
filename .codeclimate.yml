@@ -17,3 +17,6 @@ exclude_patterns:
 - '**/node_modules/'
 - '**/tests/'
 - '**/*.d.ts'
+plugins:
+  eslint:
+    enabled: true
