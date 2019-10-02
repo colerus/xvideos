@@ -1,4 +1,4 @@
-engines:
+plugins:
   eslint:
     enabled: true
     channel: 'eslint-5'
@@ -17,6 +17,3 @@ exclude_patterns:
 - '**/node_modules/'
 - '**/tests/'
 - '**/*.d.ts'
-plugins:
-  eslint:
-    enabled: true
