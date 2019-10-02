@@ -26,12 +26,12 @@
     "library"
   ],
   "scripts": {
+    "build": "tsc",
     "eslint": "eslint . --ext .js",
     "test": "cross-env NODE_ENV=test mocha --exit build/lib/**/*.spec.js",
     "coverage": "nyc --reporter=html --reporter=lcov npm test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
