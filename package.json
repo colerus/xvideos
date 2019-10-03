@@ -1,7 +1,7 @@
 {
   "name": "xvideos-lib",
   "description": "xvideos.com api implementation and update.",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
