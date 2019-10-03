@@ -40,7 +40,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var base_1 = __importDefault(require("../../base"));
-var parseResponse_1 = __importDefault(require("./parseResponse"));
+var parseResponses_1 = require("../../utils/parseResponses");
+var utils_1 = require("../../utils/utils");
 var PATH = '/best';
 var best = function (input) { return __awaiter(void 0, void 0, void 0, function () {
     var url, request, _a, _b;
@@ -53,17 +54,13 @@ var best = function (input) { return __awaiter(void 0, void 0, void 0, function 
                     input.year = new Date().getFullYear();
                 if (!input.month)
                     input.month = new Date().getMonth(); // Date.getMonth is zero based
-                if (!input.page && input.page !== 0)
-                    input.page = 1;
-                if (!input || !input.page || input.page < 1 || input.page > Number.MAX_SAFE_INTEGER) {
-                    throw new Error("Invalid page: " + input.page);
-                }
-                url = "" + base_1.default.BASE_URL + PATH + "/" + input.year + "-" + input.month.toString().padStart(2, "0") + "/" + (input.page === 0 ? '' : input.page);
+                input.page = utils_1.validatePage(input.page);
+                url = "" + base_1.default.BASE_URL + PATH + "/" + input.year + "-" + input.month.toString().padStart(2, '0') + "/" + (input.page === 0 ? '' : input.page);
                 request = base_1.default.createRequest({ url: url });
-                _a = parseResponse_1.default;
+                _a = parseResponses_1.parseResponse;
                 _b = [input.page];
                 return [4 /*yield*/, request.get(url)];
-            case 1: return [2 /*return*/, _a.apply(void 0, _b.concat([_c.sent()]))];
+            case 1: return [2 /*return*/, _a.apply(void 0, _b.concat([_c.sent(), best]))];
         }
     });
 }); };
