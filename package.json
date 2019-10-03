@@ -1,7 +1,7 @@
 {
   "name": "xvideos-lib",
   "description": "xvideos.com api implementation and update.",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "main": "./build/lib/index.js",
   "types": "./build/lib/index.d.ts",
   "files": [
@@ -42,11 +42,11 @@
     "puppeteer": "^1.5.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "2.3.1",
     "@types/axios": "0.14.0",
     "@types/cheerio": "0.22.13",
     "@types/puppeteer": "1.20.0",
     "@typescript-eslint/eslint-plugin": "2.3.1",
+    "@typescript-eslint/parser": "2.3.1",
     "codeclimate-test-reporter": "^0.5.0",
     "cross-env": "^5.2.0",
     "eslint": "6.5.0",
