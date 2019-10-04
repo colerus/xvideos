@@ -1,13 +1,14 @@
 {
   "name": "xvideos-lib",
   "description": "xvideos.com api implementation and update.",
-  "version": "1.1.13",
+  "version": "1.1.15",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts"
   ],
+  "module": "xvideos-lib",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
@@ -29,7 +30,7 @@
   "scripts": {
     "build": "tsc",
     "eslint": "eslint . --ext .ts",
-    "test": "cross-env NODE_ENV=test mocha --exit build/lib/**/*.spec.js",
+    "test": "npm run build && cross-env NODE_ENV=test mocha --exit dist/**/*.spec.js",
     "coverage": "nyc --reporter=html --reporter=lcov npm test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "prepare": "npm run build",
@@ -44,7 +45,9 @@
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
+    "@types/chai": "4.2.3",
     "@types/cheerio": "0.22.13",
+    "@types/mocha": "5.2.7",
     "@types/puppeteer": "1.20.0",
     "@typescript-eslint/eslint-plugin": "2.3.1",
     "@typescript-eslint/parser": "2.3.1",

@@ -20,6 +20,11 @@ const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
     const videoHeight = $('meta[property="og:video:height"]').attr('content');
     const views = $('#nb-views-number').text();
     const videoScript = $('#video-player-bg > script:nth-child(6)').html();
+    const tags = $('.video-tags-list > ul > li')
+      .toArray()
+      .map(elm => {
+        return $(elm).text();
+      });
     const files = {
       low: (videoScript!.match("html5player.setVideoUrlLow\\('(.*?)'\\);") || [])[1],
       high: (videoScript!.match("html5player.setVideoUrlHigh\\('(.*?)'\\);") || [])[1],
@@ -40,6 +45,7 @@ const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
       videoWidth,
       videoHeight,
       files,
+      tags,
     } as VideoDetails;
   } catch (err) {
     throw err;

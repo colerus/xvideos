@@ -11,3 +11,14 @@ export const details = _details;
 export const fresh = _fresh;
 export const search = _search;
 export const verified = _verified;
+
+const videos = {
+  best,
+  dashboard,
+  details,
+  fresh,
+  search,
+  verified,
+};
+
+export default videos;

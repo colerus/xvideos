@@ -25,5 +25,6 @@ export function parseResponse(page: number, { data }: { data: string }, callback
     next: createNextFunction(pagination, callback, key),
     hasPrevious: createHasPreviousFunction(pagination),
     previous: createPreviousFunction(pagination, callback, key),
+    key,
   } as ResponseApi;
 }

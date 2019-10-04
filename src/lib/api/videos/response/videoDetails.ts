@@ -16,4 +16,5 @@ export default class VideoDetails {
     thumbSlide: string;
     thumbSlideBig: string;
   };
+  tags!: string[];
 }

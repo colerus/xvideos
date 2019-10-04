@@ -5,7 +5,7 @@ import { validatePage } from '../../utils/utils';
 
 const PATH = '/new';
 
-const fresh = async ({ page = 1 } = {}): Promise<ResponseApi> => {
+const fresh = async ({ page = 2 } = {}): Promise<ResponseApi> => {
   page = validatePage(page);
 
   const url = `${PATH}/${page}`;
