@@ -3,3 +3,6 @@
 *.iml
 /.env
 coverage
+/dist/**/*.spec.js
+/dist/**/*.spec.d.ts
+*.tgz

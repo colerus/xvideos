@@ -11,9 +11,9 @@ plugins:
         enabled: false
 ratings:
   paths:
-  - '*.js'
+    - '*.js'
 exclude_patterns:
-- 'build/'
-- '**/node_modules/'
-- '**/tests/'
-- '**/*.d.ts'
+  - '**/build/'
+  - '**/node_modules/'
+  - '**/tests/'
+  - '**/*.d.ts'

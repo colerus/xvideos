@@ -19,17 +19,20 @@
     "sourceMap": true,
     /* Generates corresponding '.map' file. */
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
-    "outDir": "./build",
+    "outDir": "./dist",
     /* Redirect output structure to the directory. */
-    "rootDir": "./src/",
+    "rootDir": "./src",
     /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     //"composite": true,
     /* Enable project compilation */
     // "tsBuildInfoFile": "./",               /* Specify file to store incremental compilation information */
-    // "removeComments": true,                /* Do not emit comments to output. */
+    "removeComments": true,
+    /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
-    // "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
-    // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    "importHelpers": true,
+    /* Import emit helpers from 'tslib'. */
+    "downlevelIteration": true,
+    /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
     // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
 
     /* Strict Type-Checking Options */
@@ -86,6 +89,6 @@
     "emitDecoratorMetadata": true
     /* Enables experimental support for emitting type metadata for decorators. */
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*", "tests"]
+  "include": ["./src/**/*", "tests"],
+  "exclude": ["node_modules", "**/__tests__/*", "dist"]
 }
