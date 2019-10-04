@@ -29,15 +29,15 @@ export function parseVideo($: CheerioStatic, video: CheerioElement): Video {
 
 export function parseVideos($: CheerioStatic): Video[] {
   return $('#content > .mozaique > .thumb-block')
-    .map((_i, video) => parseVideo($, video))
+    .map((_i: number, video: any) => parseVideo($, video))
     .get();
 }
 
 export function getPages($: CheerioStatic): number[] {
   return $('.pagination > ul > li > a')
-    .map((_i, page) => $(page).text())
-    .filter((_i, page) => !isNaN(Number(page)))
-    .map((_i, page) => Number(page))
+    .map((_i: any, page: any) => $(page).text())
+    .filter((_i: any, page: any) => !isNaN(Number(page)))
+    .map((_i: any, page: any) => Number(page))
     .get();
 }
 
