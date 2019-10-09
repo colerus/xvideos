@@ -1,7 +1,7 @@
 {
   "name": "xvideos-lib",
   "description": "xvideos.com api implementation and update.",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -41,7 +41,8 @@
     "axios": "^0.18.0",
     "chai": "^4.1.2",
     "cheerio": "^1.0.0-rc.2",
-    "puppeteer": "^1.5.0"
+    "puppeteer": "^1.5.0",
+    "tslib": "1.9.0"
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
