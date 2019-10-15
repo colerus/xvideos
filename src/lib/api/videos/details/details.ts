@@ -7,6 +7,7 @@ const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
   let browser: Browser;
   try {
     if (process.env.PUPPETEER_WS_BROWSER) {
+      console.log('Using remote browser:', process.env.PUPPETEER_WS_BROWSER);
       browser = await connect({ browserWSEndpoint: process.env.PUPPETEER_WS_BROWSER });
     } else {
       browser = await launch({ headless: true, ignoreHTTPSErrors: true, handleSIGHUP: true });
