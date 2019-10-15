@@ -1,11 +1,16 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { load } from 'cheerio';
-import { launch, Browser } from 'puppeteer';
+import { launch, Browser, connect } from 'puppeteer';
 import VideoDetails from '../response/videoDetails';
 
 const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
   let browser: Browser;
   try {
-    browser = await launch();
+    if (process.env.PUPPETEER_WS_BROWSER) {
+      browser = await connect({ browserWSEndpoint: process.env.PUPPETEER_WS_BROWSER });
+    } else {
+      browser = await launch({ headless: true, ignoreHTTPSErrors: true, handleSIGHUP: true });
+    }
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
     const html = await page.content();
