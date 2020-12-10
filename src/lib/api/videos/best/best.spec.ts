@@ -21,7 +21,7 @@ describe('api/videos/best', () => {
     list.next.should.be.a('function');
     list.previous.should.be.a('function');
     list.videos.should.be.an('array');
-    list.videos.forEach(video => {
+    list.videos.forEach((video) => {
       video.should.be.an('object');
       video.should.have.ownPropertyDescriptor('duration');
       video.duration.should.be.a('string');
@@ -54,7 +54,7 @@ describe('api/videos/best', () => {
     previous.next.should.be.a('function');
     previous.previous.should.be.a('function');
     previous.videos.should.be.an('array');
-    previous.videos.forEach(video => {
+    previous.videos.forEach((video) => {
       video.should.be.an('object');
       video.should.have.ownPropertyDescriptor('duration');
       video.duration.should.be.a('string');
@@ -87,7 +87,7 @@ describe('api/videos/best', () => {
     next.next.should.be.a('function');
     next.previous.should.be.a('function');
     next.videos.should.be.an('array');
-    next.videos.forEach(video => {
+    next.videos.forEach((video) => {
       video.should.be.an('object');
       video.should.have.ownPropertyDescriptor('duration');
       video.duration.should.be.a('string');

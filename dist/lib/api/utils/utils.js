@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.validatePage = exports.getPages = exports.parseVideos = exports.parseVideo = void 0;
 var tslib_1 = require("tslib");
 var base_1 = tslib_1.__importDefault(require("../base"));
 var BASE_URL = base_1.default.BASE_URL;
 function parseVideo($, video) {
     var $video = $(video);
-    var title = $video.find('p:not(".metadata") a').attr('title');
-    var path = $video.find('.thumb > a').attr('href');
+    var title = $video.find('p:not(".metadata") a').attr('title') || '';
+    var path = $video.find('.thumb > a').attr('href') || '';
     var url = "" + BASE_URL + path;
     var views = $video.find('p.metadata > span > span:not(.duration)').text();
     var duration = $video.find('p.metadata > span.bg > span.duration').text();

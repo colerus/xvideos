@@ -1,1 +1,1 @@
-{"version":3,"file":"createHasNextFunction.d.ts","sourceRoot":"","sources":["../../../../src/lib/api/utils/createHasNextFunction.ts"],"names":[],"mappings":"AAIA,QAAA,MAAM,qBAAqB;;;mBAE1B,CAAC;AAEF,eAAe,qBAAqB,CAAC"}
+{"version":3,"file":"createHasNextFunction.d.ts","sourceRoot":"","sources":["../../../../src/lib/api/utils/createHasNextFunction.ts"],"names":[],"mappings":"AAIA,QAAA,MAAM,qBAAqB,eAAgB;IAAE,IAAI,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,MAAM,EAAE,CAAA;CAAE,KAAG,CAAC,MAAM,OAAO,CAE5F,CAAC;AAEF,eAAe,qBAAqB,CAAC"}

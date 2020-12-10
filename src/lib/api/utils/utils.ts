@@ -3,11 +3,11 @@ import base from '../base';
 
 const BASE_URL = base.BASE_URL;
 
-export function parseVideo($: CheerioStatic, video: CheerioElement): Video {
+export function parseVideo($: cheerio.Root, video: cheerio.Element): Video {
   const $video = $(video);
 
-  const title = $video.find('p:not(".metadata") a').attr('title');
-  const path = $video.find('.thumb > a').attr('href');
+  const title = $video.find('p:not(".metadata") a').attr('title') || '';
+  const path = $video.find('.thumb > a').attr('href') || '';
   const url = `${BASE_URL}${path}`;
   const views = $video.find('p.metadata > span > span:not(.duration)').text();
   const duration = $video.find('p.metadata > span.bg > span.duration').text();
@@ -27,17 +27,17 @@ export function parseVideo($: CheerioStatic, video: CheerioElement): Video {
   };
 }
 
-export function parseVideos($: CheerioStatic): Video[] {
+export function parseVideos($: cheerio.Root): Video[] {
   return $('#content > .mozaique > .thumb-block')
-    .map((_i, video) => parseVideo($, video))
+    .map((_i: number, video: any) => parseVideo($, video))
     .get();
 }
 
-export function getPages($: CheerioStatic): number[] {
+export function getPages($: cheerio.Root): number[] {
   return $('.pagination > ul > li > a')
-    .map((_i, page) => $(page).text())
-    .filter((_i, page) => !isNaN(Number(page)))
-    .map((_i, page) => Number(page))
+    .map((_i: any, page: any) => $(page).text())
+    .filter((_i: any, page: any) => !isNaN(Number(page)))
+    .map((_i: any, page: any) => Number(page))
     .get();
 }
 

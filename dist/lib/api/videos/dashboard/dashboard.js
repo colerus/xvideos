@@ -6,19 +6,19 @@ var parseResponses_1 = require("../../utils/parseResponses");
 var utils_1 = require("../../utils/utils");
 var PATH = '/verified/videos';
 var dashboard = function (_a) {
-    var _b = (_a === void 0 ? {} : _a).page, page = _b === void 0 ? 1 : _b;
+    var _b = _a === void 0 ? {} : _a, _c = _b.page, page = _c === void 0 ? 1 : _c;
     return tslib_1.__awaiter(void 0, void 0, void 0, function () {
-        var url, request, _c, _d;
-        return tslib_1.__generator(this, function (_e) {
-            switch (_e.label) {
+        var url, request, _d, _e;
+        return tslib_1.__generator(this, function (_f) {
+            switch (_f.label) {
                 case 0:
                     page = utils_1.validatePage(page);
                     url = PATH + "/" + (page === 0 ? '' : page);
                     request = base_1.default.createRequest();
-                    _c = parseResponses_1.parseResponse;
-                    _d = [page];
+                    _d = parseResponses_1.parseResponse;
+                    _e = [page];
                     return [4, request.get(url)];
-                case 1: return [2, _c.apply(void 0, _d.concat([_e.sent(), dashboard]))];
+                case 1: return [2, _d.apply(void 0, _e.concat([_f.sent(), dashboard]))];
             }
         });
     });
