@@ -12,12 +12,12 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com/colerus/xvideos.git"
+    "url": "git+https://git@github.com/colerus/xvideos-lib.git"
   },
   "bugs": {
-    "url": "https://github.com/colerus/xvideos/issues"
+    "url": "https://github.com/colerus/xvideos-lib/issues"
   },
-  "homepage": "https://github.com/colerus/xvideos",
+  "homepage": "https://github.com/colerus/xvideos-lib",
   "keywords": [
     "crawler",
     "porn",
