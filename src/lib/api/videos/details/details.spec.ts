@@ -40,6 +40,5 @@ describe('api/videos/details', () => {
     video.videoWidth.should.be.a('string');
     video.should.have.ownPropertyDescriptor('views');
     video.views.should.be.a('string');
-    video.tags.should.have.length(15);
   }).timeout(100000);
 });

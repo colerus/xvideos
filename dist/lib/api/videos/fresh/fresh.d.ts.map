@@ -1,1 +1,1 @@
-{"version":3,"file":"fresh.d.ts","sourceRoot":"","sources":["../../../../../src/lib/api/videos/fresh/fresh.ts"],"names":[],"mappings":"AACA,OAAO,WAAW,MAAM,yBAAyB,CAAC;AAMlD,QAAA,MAAM,KAAK;;0BAOV,CAAC;AAEF,eAAe,KAAK,CAAC"}
+{"version":3,"file":"fresh.d.ts","sourceRoot":"","sources":["../../../../../src/lib/api/videos/fresh/fresh.ts"],"names":[],"mappings":"AACA,OAAO,WAAW,MAAM,yBAAyB,CAAC;AAMlD,QAAA,MAAM,KAAK;;MAA8B,QAAQ,WAAW,CAO3D,CAAC;AAEF,eAAe,KAAK,CAAC"}

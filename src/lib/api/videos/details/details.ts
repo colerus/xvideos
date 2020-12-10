@@ -28,7 +28,7 @@ const details = async ({ url }: { url: string }): Promise<VideoDetails> => {
     const videoScript = $('#video-player-bg > script:nth-child(6)').html();
     const tags = $('.video-tags-list > ul > li')
       .toArray()
-      .map(elm => {
+      .map((elm) => {
         return $(elm).text();
       });
     const files = {

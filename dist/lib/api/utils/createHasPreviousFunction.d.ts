@@ -1,6 +1,6 @@
 declare const createHasPreviousFunction: (pagination: {
     page: number;
     pages: number[];
-}) => () => boolean;
+}) => (() => boolean);
 export default createHasPreviousFunction;
 //# sourceMappingURL=createHasPreviousFunction.d.ts.map

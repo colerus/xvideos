@@ -10,18 +10,25 @@ var details = function (_a) {
         return tslib_1.__generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
-                    _b.trys.push([0, 5, 6, 9]);
-                    return [4, puppeteer_1.launch()];
+                    _b.trys.push([0, 8, 9, 12]);
+                    if (!process.env.PUPPETEER_WS_BROWSER) return [3, 2];
+                    console.log('Using remote browser:', process.env.PUPPETEER_WS_BROWSER);
+                    return [4, puppeteer_1.connect({ browserWSEndpoint: process.env.PUPPETEER_WS_BROWSER })];
                 case 1:
                     browser = _b.sent();
-                    return [4, browser.newPage()];
-                case 2:
+                    return [3, 4];
+                case 2: return [4, puppeteer_1.launch({ headless: true, ignoreHTTPSErrors: true, handleSIGHUP: true })];
+                case 3:
+                    browser = _b.sent();
+                    _b.label = 4;
+                case 4: return [4, browser.newPage()];
+                case 5:
                     page = _b.sent();
                     return [4, page.goto(url, { waitUntil: 'networkidle2' })];
-                case 3:
+                case 6:
                     _b.sent();
                     return [4, page.content()];
-                case 4:
+                case 7:
                     html = _b.sent();
                     $_1 = cheerio_1.load(html);
                     title = $_1('meta[property="og:title"]').attr('content');
@@ -58,17 +65,17 @@ var details = function (_a) {
                             files: files,
                             tags: tags,
                         }];
-                case 5:
+                case 8:
                     err_1 = _b.sent();
                     throw err_1;
-                case 6:
-                    if (!browser) return [3, 8];
+                case 9:
+                    if (!browser) return [3, 11];
                     return [4, browser.close()];
-                case 7:
+                case 10:
                     _b.sent();
-                    _b.label = 8;
-                case 8: return [7];
-                case 9: return [2];
+                    _b.label = 11;
+                case 11: return [7];
+                case 12: return [2];
             }
         });
     });
